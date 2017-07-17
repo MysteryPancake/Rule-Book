@@ -22,6 +22,7 @@
 - `math.random( 1, n )` should be `math.random( n )`.
 - To choose a random boolean, `math.random() > 0.5` is preferred.
 - For loops are preferred over while and until loops.
+- `math.randomseed` should never be called.
 
 ## Garry's Mod
 - All repositories intended for external use must be structured as the following:
@@ -43,7 +44,6 @@
 ```
 # Garry's Mod NAME
 All the code for my NAME addon can be found here, and the actual addon is available [here](ADDON LINK).
-
 ![Icon](ICON PATH?raw=true)
 ```
 
