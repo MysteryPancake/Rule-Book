@@ -4,7 +4,7 @@
 - All repository titles must have - dashed spacing.
 - All repositories intended for personal use must have an MIT license with MysteryPancake as the legal name. Otherwise, no license must be included.
 - All repository descriptions must not include a full stop.
-- Small pieces of code should be created in Fun.
+- Small pieces of code should be created in the Fun repository.
 
 ## Lua
 - Tabs must be used, no spaces.
@@ -17,6 +17,7 @@
 - Variables should not be the name of an existing object.
 - math.random( 1, n ) should be math.random( n ).
 - To choose a random boolean, math.random() > 0.5 is preferred.
+- While and until loops should be avoided in favour of for loops.
 
 ## Garry's Mod
 - All repositories intended for external use must begin with GMod-.
