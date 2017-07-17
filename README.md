@@ -24,10 +24,28 @@
 - For loops are preferred over while and until loops.
 
 ## Garry's Mod
-- All repositories intended for external use must be structured as the following: `GMod-NAME`.
-- All repositories must have tags of the following: `garrys-mod` `garrysmod` `garry-mod` `garrysmod-addon` `lua` `addon` `glua` `gmod` `gmod-lua`.
-- All repository descriptions must be structured as the following: `NAME for Garry's Mod`.
+- All repositories intended for external use must be structured as the following:
+
+`GMod-NAME`
+
+- All repositories must have tags of the following:
+
+`garrys-mod` `garrysmod` `garry-mod` `garrysmod-addon` `lua` `addon` `glua` `gmod` `gmod-lua`
+
+- All repository descriptions must be structured as the following:
+
+`NAME for Garry's Mod`
+
 - No `AddCSLuaFile` is to be used for `lua/autorun` files.
+- All repositories must include an addon JPEG or PNG, as well as the PSD.
+- All repository README files must be structured as the following:
+
+```
+# Garry's Mod NAME
+All the code for my NAME addon can be found here, and the actual addon is available [here](ADDON LINK).
+
+![Icon](ICON PATH?raw=true)
+```
 
 ## Swift
 - All variables possible should be kept `private`.
