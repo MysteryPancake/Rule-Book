@@ -1,10 +1,10 @@
-# MysteryPancake's Rule Book
+# My Rule Book
 ## GitHub
 * All repository titles must have capital letters at the start of each word.
 * All repository titles must have - dashes in place of spaces.
 * All repositories intended for personal use must have an MIT license with MysteryPancake as the legal name. Otherwise, no license must be included.
 * All repository descriptions must not include a full stop.
-* Small pieces of code should be created in the Fun repository.
+* Small pieces of code should be added to the Fun repository.
 
 ## Lua
 * Tabs must be used, not spaces.
@@ -25,19 +25,13 @@
 * `math.randomseed` should never be called.
 
 ## Garry's Mod
-* All repositories intended for external use must be structured as the following:
-
-`GMod-INSERT-NAME`
-
+* All repositories intended for external use must be structured as the following: `GMod-INSERT-NAME`
 * All repositories must have tags of the following:
 
 `garrys-mod` `garrysmod` `garry-mod` `garrysmod-addon` `lua` `addon` `glua` `gmod` `gmod-lua`
 
 * If the repository contains code for a STOOL, then `garrysmod-tool` must also be included.
-* All repository descriptions must be structured as the following:
-
-`INSERT NAME for Garry's Mod`
-
+* All repository descriptions must be structured as the following: `INSERT NAME for Garry's Mod`
 * No `AddCSLuaFile` is to be used for `lua/autorun` files.
 * All repositories must include an addon `.jpeg`, `.jpg`, `.png`, and `.psd`.
 * All repository `README.md` files must be structured as the following:
