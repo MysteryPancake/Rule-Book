@@ -13,7 +13,7 @@
 * Rules must be kept as short as possible.
 * Australian spelling must be used.
 * `Instead of` must be used instead of `over`.
-* `Where` must be used instead of `when`.
+* `Where possible` must be used instead of `when possible`
 * All titles must have capital letters at the start of each word.
 * All rules must have a dot point.
 * All dot points must be `*`, not `-`, or `+`.
@@ -21,14 +21,14 @@
 * `These quotes` must be used where they look nice.
 * `Look nice` must be used instead of `nice looking`.
 * Lists in rules must have a `,` before the `and`, or `or`.
-* Full stops must be used at the end of rules.
+* Full stops must be used at the end of each rule.
 * `Especially` must be avoided.
 * Characters must be referred to literally, except for full stops, dot points, tabs, and spaces.
 * `Must be used` must be used instead of `is preferred`.
 * `As` must be used instead of `as follows`, or `as the following`.
 
 ## Lua
-* All tables possible must be sequential.
+* All tables must be sequential where possible.
 * All variables must be declared as `local`.
 * Tabs must be used, not spaces.
 * No variables should be declared such as `local math = math` unless in a module
