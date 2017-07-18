@@ -1,4 +1,4 @@
-# My Rule Book
+# MysteryPancake's Hardcore Rule Book
 ## GitHub
 * Editing code on the site must be avoided, except for this guide.
 * All repository titles must have capital letters at the start of each word.
