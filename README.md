@@ -1,4 +1,4 @@
-# MysteryPancake's Hardcore Rule Book
+# MysteryPancake's Rule Book
 ## GitHub
 * Editing code on the site must be avoided, except for this guide.
 * All repository titles must have capital letters at the start of each word.
@@ -9,14 +9,27 @@
 * Small pieces of code must be added to the Fun repository.
 * Images must be hosted on the repository, not an external site.
 
+## Rule Book
+* Rules must be kept as short as possible.
+* Australian spelling must be used.
+* `Instead of` is preferred instead of `over`.
+* `Where` is preferred instead of `when`.
+* All titles must have capital letters at the start of each word.
+* All dot points must be `*`, not `-` or `+`.
+* `Must` must be used instead of `should`.
+* `Inline quotes` must be used where they look nice.
+* Lists in rules must have a `,` before the `and`.
+* Full stops must be used at the end of rules.
+* `Especially` must be avoided.
+
 ## Lua
-* All variables must be declared as `local`, especially functions.
+* All variables must be declared as `local`.
 * Tabs must be used, not spaces.
 * No variables should be declared as such unless in a module: `local math = math`
 * Spacing must remain consistent and nice looking.
 * Strings must use `"`, not `'`. If necessary, `[[` and `]]` must be used.
-* `(` and `)` parenthesis must be kept to a minimum unless required.
-* For indexed sequential tables, `ipairs` should be used, not `pairs`.
+* `(` and `)` must not be used unless required.
+* For indexed sequential tables, `ipairs` must be used, not `pairs`.
 * Unused function return values must be set as `_`.
 * Unused keys or values in a `for` loop must be set as `_`.
 * `;` semicolons must never be used.
@@ -52,6 +65,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 
 ## Swift
 * Variables must be declared as `private`, unless required by the compiler.
+* Variable names must be American.
 * No variables must be above the level of `internal`.
 * `===` and `!==` are preferred over `==` and `!=`.
 * No variables must be type declared, except for numbers.
@@ -60,7 +74,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Arrays are preferred over sets.
 * All classes must be marked as `final` unless intended to be overwritten. If so, as many variables in the class as possible should be marked as `final`.
 * Unused variables must be set as `_`.
-* Structs must be used over classes when possible.
+* Structs must be used over classes where possible.
 * `arc4random` and `arc4random_uniform` must be used for random number generation.
 * `DispatchQueue` must be avoided.
 * `SKShapeNode` must never be used, as it leaks memory.
