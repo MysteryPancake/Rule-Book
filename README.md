@@ -5,7 +5,7 @@
 * All repository titles must have `-` in place of spaces.
 * All repositories intended for personal use must have an `MIT License` with `MysteryPancake` as the legal name. Otherwise, no license must be included.
 * All repository descriptions must be as short as possible.
-* All repository descriptions must not include a full stop.
+* All repository descriptions must not include a `.`.
 * Small pieces of code must be added to the Fun repository.
 * Images must be hosted on the repository, not an external site.
 
@@ -19,8 +19,9 @@
 * `Must` must be used instead of `should`.
 * `Inline quotes` must be used where they look nice.
 * Lists in rules must have a `,` before the `and`.
-* Full stops must be used at the end of rules.
+* `.` must be used at the end of rules.
 * `Especially` must be avoided.
+* Characters must be referred to literally.
 
 ## Lua
 * All variables must be declared as `local`.
