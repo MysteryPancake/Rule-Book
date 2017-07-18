@@ -4,8 +4,10 @@
 * All repository titles must have capital letters at the start of each word.
 * All repository titles must have `-` in place of spaces.
 * All repositories intended for personal use must have an `MIT License` with `MysteryPancake` as the legal name. Otherwise, no license must be included.
+* All repository descriptions must be as short as possible.
 * All repository descriptions must not include a full stop.
 * Small pieces of code must be added to the Fun repository.
+* Images must be hosted on the repository, not an external site.
 
 ## Lua
 * All variables must be declared as `local`, especially functions.
@@ -51,7 +53,9 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 ## Swift
 * Variables must be declared as `private`, unless required by the compiler.
 * No variables must be above the level of `internal`.
+* `===` and `!==` are preferred over `==` and `!=`.
 * No variables must be type declared, except for numbers.
+* Variables must use `get`, `set`, and `didSet` where possible.
 * `?` weak and `!` implicitly unwrapped variables must be avoided.
 * Arrays are preferred over sets.
 * All classes must be marked as `final` unless intended to be overwritten. If so, as many variables in the class as possible should be marked as `final`.
