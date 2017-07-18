@@ -1,13 +1,13 @@
 # Rule Book
 ## GitHub
 * Editing on the site must be avoided, except for this file.
-* Repository titles must have capital letters at the start of each word.
-* Repository titles must have `-` instead of spaces.
-* Repositories intended for personal use must have an `MIT License` with `MysteryPancake` as the legal name. Otherwise, no license must be included.
-* Repository descriptions must be as short as possible.
-* Repository descriptions must not include a full stop.
-* Small pieces of code must be added to the Fun repository.
-* Images must be hosted on the repository, not an external site.
+* Repo titles must have capital letters at the start of each word.
+* Repo titles must have `-` instead of spaces.
+* Repos intended for personal use must have an `MIT License` with `MysteryPancake` as the legal name. Otherwise, no license must be included.
+* Repo descriptions must be as short as possible.
+* Repo descriptions must not include a full stop.
+* Small pieces of code must be added to the Fun repo.
+* Images in the repo's `README` must be hosted on the repo, not an external site.
 
 ## Lua
 * Tables must be sequential where possible.
@@ -30,13 +30,13 @@
 * `math.randomseed` must not be used.
 
 ## Garry's Mod
-* Repositories intended for external use must be structured as `GMod-Insert-Name-Here`.
-* Repositories must have tags of the following: `garrys-mod` `garrysmod` `garry-mod` `garrysmod-addon` `lua` `addon` `glua` `gmod` `gmod-lua`
-* If the repository contains code for a STOOL, then `garrysmod-tool` must also be included.
-* Repository descriptions must be structured as `Insert Name Here for Garry's Mod`.
+* Repos intended for external use must be structured as `GMod-Insert-Name-Here`.
+* Repos must have the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod`, and `gmod-lua`.
+* If the repo is for a STOOL, then the tag `garrysmod-tool` must also be included.
+* Repo descriptions must be structured as `Insert Name Here for Garry's Mod`.
 * `AddCSLuaFile` must never be used for `lua/autorun` files.
-* Repositories must include an addon `.jpeg`, `.jpg`, `.png`, and `.psd`.
-* Repository `README` files must be structured as the following:
+* Repos must include an addon `.jpeg`, `.jpg`, `.png`, and `.psd`.
+* Repo `README` files must be structured as the following:
 
 ```
 # Garry's Mod NAME
