@@ -1,4 +1,4 @@
-# Rule Book
+# My Rule Book
 ## GitHub
 * Editing on the site must be avoided, except for this file.
 * Repo titles must have capital letters at the start of each word.
@@ -6,7 +6,7 @@
 * Repos intended for personal use must have an `MIT License` with `MysteryPancake` as the legal name. Otherwise, no license must be included.
 * Repo descriptions must be as short as possible.
 * Repo descriptions must not include a full stop.
-* Small pieces of code must be added to the Fun repo.
+* Small unused scripts must be added to [the Fun repo](https://github.com/MysteryPancake/Fun).
 * Images in the repo's `README` must be hosted on the repo, not an external site.
 
 ## Lua
