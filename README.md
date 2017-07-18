@@ -30,11 +30,13 @@
 * `math.randomseed` must not be used.
 
 ## Garry's Mod
-* Repos intended for external use must be structured as `GMod-Insert-Name-Here`.
+* Repos intended for external use must be named `GMod-Insert-Name-Here`.
 * Repos must have the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod`, and `gmod-lua`.
+* Repos must have a link to the addon next to the description.
 * If the repo is for a STOOL, then the tag `garrysmod-tool` must also be included.
-* Repo descriptions must be structured as `Insert Name Here for Garry's Mod`.
+* Repo descriptions must be `Insert Name Here for Garry's Mod`.
 * `AddCSLuaFile` must never be used for `lua/autorun` files.
+* Hooks must use functions not set to a variable.
 * Repos must include an addon `.jpeg`, `.jpg`, `.png`, and `.psd`.
 * Repo `README` files must be structured as the following:
 
