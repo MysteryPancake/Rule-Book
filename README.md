@@ -37,7 +37,7 @@
 * Repo descriptions must be `Insert Name Here for Garry's Mod`.
 * `AddCSLuaFile` must never be used for `lua/autorun` files.
 * Hooks must use functions not set to a variable.
-* Repos must include an addon `.jpeg`, `.jpg`, `.png`, and `.psd`.
+* Repos must include an addon icon image, and the associated Photoshop file.
 * Repo `README` files must be structured as the following:
 
 ```
