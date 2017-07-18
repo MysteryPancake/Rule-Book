@@ -12,23 +12,28 @@
 ## Rule Book
 * Rules must be kept as short as possible.
 * Australian spelling must be used.
-* `Instead of` is preferred instead of `over`.
-* `Where` is preferred instead of `when`.
+* `Instead of` must be used instead of `over`.
+* `Where` must be used instead of `when`.
 * All titles must have capital letters at the start of each word.
-* All dot points must be `*`, not `-` or `+`.
+* All rules must have a dot point.
+* All dot points must be `*`, not `-`, or `+`.
 * `Must` must be used instead of `should`.
 * `These quotes` must be used where they look nice.
-* Lists in rules must have a `,` before the `and`.
+* `Look nice` must be used instead of `nice looking`.
+* Lists in rules must have a `,` before the `and`, or `or`.
 * Full stops must be used at the end of rules.
 * `Especially` must be avoided.
-* Characters must be referred to literally, except for full stops, tabs, and spaces.
+* Characters must be referred to literally, except for full stops, dot points, tabs, and spaces.
+* `Must be used` must be used instead of `is preferred`.
+* `As` must be used instead of `as follows`, or `as the following`.
 
 ## Lua
+* All tables possible must be sequential.
 * All variables must be declared as `local`.
 * Tabs must be used, not spaces.
-* No variables should be declared as such unless in a module: `local math = math`
-* Spacing must remain consistent and nice looking.
-* Strings must use `"`, not `'`. If necessary, `[[` and `]]` must be used.
+* No variables should be declared such as `local math = math` unless in a module
+* Spacing must remain consistent and look nice.
+* Strings must use `"`, not `'`, unless `[[` and `]]` are required.
 * `(` and `)` must not be used unless required.
 * For indexed sequential tables, `ipairs` must be used, not `pairs`.
 * Unused function return values must be set as `_`.
@@ -43,10 +48,10 @@
 * `math.randomseed` must never be called.
 
 ## Garry's Mod
-* All repositories intended for external use must be structured as the following: `GMod-INSERT-NAME`
+* All repositories intended for external use must be structured as `GMod-INSERT-NAME`.
 * All repositories must have tags of the following: `garrys-mod` `garrysmod` `garry-mod` `garrysmod-addon` `lua` `addon` `glua` `gmod` `gmod-lua`
 * If the repository contains code for a STOOL, then `garrysmod-tool` must also be included.
-* All repository descriptions must be structured as the following: `INSERT NAME for Garry's Mod`
+* All repository descriptions must be structured as `INSERT NAME for Garry's Mod`.
 * `AddCSLuaFile` must never be used for `lua/autorun` files.
 * All repositories must include an addon `.jpeg`, `.jpg`, `.png`, and `.psd`.
 * All repository `README` files must be structured as the following:
