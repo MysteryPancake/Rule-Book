@@ -2,10 +2,10 @@
 ## GitHub
 * Editing code on the site must be avoided, except for this guide.
 * All repository titles must have capital letters at the start of each word.
-* All repository titles must have `-` in place of spaces.
+* All repository titles must have `-` instead of spaces.
 * All repositories intended for personal use must have an `MIT License` with `MysteryPancake` as the legal name. Otherwise, no license must be included.
 * All repository descriptions must be as short as possible.
-* All repository descriptions must not include a `.`.
+* All repository descriptions must not include a full stop.
 * Small pieces of code must be added to the Fun repository.
 * Images must be hosted on the repository, not an external site.
 
@@ -17,11 +17,11 @@
 * All titles must have capital letters at the start of each word.
 * All dot points must be `*`, not `-` or `+`.
 * `Must` must be used instead of `should`.
-* `Inline quotes` must be used where they look nice.
+* `These quotes` must be used where they look nice.
 * Lists in rules must have a `,` before the `and`.
-* `.` must be used at the end of rules.
+* Full stops must be used at the end of rules.
 * `Especially` must be avoided.
-* Characters must be referred to literally.
+* Characters must be referred to literally, except for full stops, tabs, and spaces.
 
 ## Lua
 * All variables must be declared as `local`.
@@ -49,7 +49,7 @@
 * All repository descriptions must be structured as the following: `INSERT NAME for Garry's Mod`
 * `AddCSLuaFile` must never be used for `lua/autorun` files.
 * All repositories must include an addon `.jpeg`, `.jpg`, `.png`, and `.psd`.
-* All repository `README.md` files must be structured as the following:
+* All repository `README` files must be structured as the following:
 
 ```
 # Garry's Mod NAME
