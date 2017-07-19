@@ -39,6 +39,7 @@
 * Repository descriptions must be `Insert Name Here for Garry's Mod`.
 * `AddCSLuaFile` must never be used for `lua/autorun` files.
 * Hooks must use functions not set to a variable.
+* `Panel` must be used, not `DPanel`.
 * Repositories must include an addon icon image and the associated Photoshop file.
 * Repository `README` files must be structured as the following:
 
