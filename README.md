@@ -40,6 +40,7 @@
 * `AddCSLuaFile` must never be used for `lua/autorun` files.
 * Hooks must use functions not set to a variable.
 * `Panel` must be used, not `DPanel`.
+* Colors with a default alpha of 255 do not need to have an alpha argument.
 * Repositories must include an addon icon image and the associated Photoshop file.
 * Repository `README` files must be structured as the following:
 
