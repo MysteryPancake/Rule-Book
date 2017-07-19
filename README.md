@@ -56,6 +56,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Errors must be handled properly.
 
 ## Swift
+* Ranges in `for` loops must not have spacing on either side.
 * Variables must be declared as `private`, unless required by the compiler.
 * No variables must be above the level of `internal`.
 * `===` and `!==` must be used instead of `==` and `!=` where possible.
