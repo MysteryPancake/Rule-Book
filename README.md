@@ -14,6 +14,7 @@
 ## Lua
 * All variables must be initialized as `local`.
 * Tab indentation must be used, not spaces.
+* `If` statements that contain a bunch of code should simply `return end`
 * Spacing must remain consistent and look nice.
 * Tables must be sequential where possible.
 * Variables must never be initialized as `local var = var` unless in a module.
