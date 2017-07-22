@@ -26,7 +26,7 @@
 * Unused function return values must be set as `_`.
 * Unused keys or values in a `for` loop must be set as `_`.
 * `;` semicolons must never be used.
-* Variable names must be in camelCase as well as functions.
+* Variable names must be in camelCase, except if it doesn't look nice.
 * Variables must be named `str`, not `txt`.
 * Variables must not be the name of an existing object.
 * `math.random( 1, n )` must be `math.random( n )`.
