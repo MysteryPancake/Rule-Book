@@ -42,6 +42,7 @@
 * `AddCSLuaFile` must never be used for `lua/autorun` files.
 * Hooks must use functions not set to a variable.
 * `Panel` must be used, not `DPanel`.
+* `and`, `or` and `not` must be used, not `&&`, `||` and `!`.
 * Functions with default arguments must not be called with the argument unless overriding.
 * Repositories must have an addon icon image and the associated Photoshop file.
 * Repository `README` files must be structured as the following:
