@@ -34,6 +34,7 @@
 * To choose a random boolean `math.random() > 0.5` must be used.
 * `While` and `until` loops must be avoided in favour of `for` loops.
 * `math.randomseed` must never be used.
+* To invert variables `-var` or `not var` must be used.
 
 ## Garry's Mod
 * Repositories intended for external use must be named with the style of `GMod-Insert-Name-Here`.
@@ -67,6 +68,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Double spaced indentation must be used, not tabs.
 * Variables must be declared as `private` unless required by the compiler.
 * No variables must be above the level of `internal`.
+* To invert variables, `-var` or `!var` must be used.
 * Where possible `===` and `!==` must be used, not `==` or `!=`.
 * No variables must be type declared except for numbers.
 * Division must never be used as it is slower than multiplication.
