@@ -20,6 +20,7 @@
 * Variables must never be initialized as `local var = var` unless in a module.
 * Spaces must be on both sides of `..`.
 * Strings must have `"`, not `'` unless `[[` and `]]` are required.
+* To check if a table is empty, `next(table) == nil` must be used.
 * Expressions such as `x = x * 0.75` must be used, not `x = x - x / 4`.
 * `(` and `)` must not be used unless required.
 * Sequential tables must be iterated with `ipairs`, not `pairs`.
