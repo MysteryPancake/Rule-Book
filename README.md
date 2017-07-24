@@ -85,6 +85,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `DispatchQueue` must be avoided.
 * `SKShapeNode` must never be used as it leaks memory.
 * Wrappers must be avoided in favour of bases.
+* Variable names must be in camelCase.
 * Extensions must be used to reduce namespace clutter.
 * Variables must be marked as `let` unless the compiler requires `var`.
 * Arrays must be initialized with the style of `x: [Int] = []`, not `x = [Int]()`.
