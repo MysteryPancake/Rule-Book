@@ -13,8 +13,8 @@
 
 ## Lua
 * `If` statements in functions containing the rest of the code must instead `return end`.
+* Boolean variables must be checked with `if bool then`, not `if bool == true then`.
 * Expressions with the style of `x = x * 0.75` must be used, not `x = x - x / 4`.
-* Boolean values must be checked with `if bool then`, not `if bool == true then`.
 * Strings must use `"`, not `'`, unless `[[` and `]]` are essential.
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
 * `local var = var` mustn't be used, unless essential in a module.
@@ -24,8 +24,8 @@
 * Generic string variables must be named `str`, not `txt`.
 * Variables mustn't have the names of existing variables.
 * To invert variables `-var` or `not var` must be used.
+* Unused function return variables must be set as `_`.
 * Unused keys or values in loops must be set as `_`.
-* Unused function return values must be set as `_`.
 * Sequential tables must be iterated with `ipairs`.
 * `(` and `)` mustn't be used, unless essential.
 * Tables must be sequential whenever possible.
@@ -39,11 +39,11 @@
 ## Garry's Mod
 * Repositories intended for external use must be named with the style of `GMod-Insert-Name-Here`.
 * Repositories must include the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod` and `gmod-lua`.
-* Repositories for STOOLs must include the tag `garrysmod-tool`.
+* Repositories for Scripted Tools must include the tag `garrysmod-tool`.
 * Repository descriptions must have the style of `Insert Name Here for Garry's Mod`.
 * Repositories must include an addon icon image, and the associated Photoshop file.
 * Repositories must include a link to the addon.
-* Repository `README.md` files must be structured as the following:
+* Repository `README.md` files must use the following style:
 
 ```
 # Garry's Mod NAME
@@ -51,6 +51,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 
 ![Icon](ICON PATH?raw=true)
 ```
+* To add playermodels, `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used.
 * Functions with applicable default arguments mustn't be called with the arguments.
 * Variable names must be in `camelCase`, except for functions.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
@@ -66,7 +67,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Errors must be handled safely.
 
 ## Swift
-* Arrays with repeated values must be initialized as `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
+* Arrays with repeated variables must be initialized as `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
 * Dictionaries must be initialized as `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * To generate random numbers, `arc4random` or `arc4random_uniform` must be used.
 * A newline mustn't be before the closing `}` of classes, functions or structs.
@@ -87,7 +88,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Variables must be `let` unless `var` is essential.
 * Double spacing indentation must be used, not tabs.
 * `SKShapeNode` mustn't be used, as it leaks memory.
-* Arrays and dictionaries must be used, not sets.
+* `Array` and `Dictionary` must be used, not `Set`.
 * Ranges in `for` loops mustn't include spacing.
 * `(` and `)` mustn't be used, unless essential.
 * `?` and `!` variables mustn't be used.
