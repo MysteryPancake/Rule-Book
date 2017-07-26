@@ -68,6 +68,8 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Double spaced indentation must be used, not tabs.
 * Variables must be declared as `private` unless required by the compiler.
 * No variables must be above the level of `internal`.
+* No newlines should be just before the end `}` of classes, functions or structs.
+* To join variables and strings, `"String \(variable)"` must be used.
 * To invert variables, `-var` or `!var` must be used.
 * Where possible `===` and `!==` must be used, not `==` or `!=`.
 * No variables must be type declared except for numbers.
