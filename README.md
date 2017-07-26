@@ -29,8 +29,8 @@
 * Sequential tables must be iterated with `ipairs`.
 * `(` and `)` mustn't be used, unless essential.
 * Tables must be sequential whenever possible.
-* Tab indentation must be used, not spacing.
-* Spacing must be on both sides of `..`.
+* Tab indentation must be used, not spaces.
+* Spaces must be on both sides of `..`.
 * Spacing must be between everything.
 * `math.randomseed` mustn't be used.
 * Variables must be `local`.
@@ -86,11 +86,11 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Extensions must be used to reduce namespace clutter.
 * Variables mustn't be above the level of `internal`.
 * Variables must be `let` unless `var` is essential.
-* Double spacing indentation must be used, not tabs.
 * `SKShapeNode` mustn't be used, as it leaks memory.
 * `Array` and `Dictionary` must be used, not `Set`.
-* Ranges in `for` loops mustn't include spacing.
+* Double space indentation must be used, not tabs.
 * `(` and `)` mustn't be used, unless essential.
+* Ranges in `for` loops mustn't include spaces.
 * `?` and `!` variables mustn't be used.
 * Variable names must be in `camelCase`.
 * Unused variables must be set as `_`.
