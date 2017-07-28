@@ -73,10 +73,12 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * A newline mustn't be before the closing `}` of classes, functions or structs.
 * Expressions with the style of `x *= 0.75` must be used, not `x = x - x / 4`.
 * Classes must be initialized as `final` unless intended to be overridden.
+* When calling functions with specific arguments `.init` mustn't be used.
 * Overridable classes must have as many `final` properties as possible.
 * To join variables with strings, `"String \(variable)"` must be used.
 * To invert variables, `-var` or `!var` must be used, not `var * -1`.
 * Arrays must be initialized as `x: [Any] = []`, not `x = [Any]()`.
+* When calling functions with specific arguments, `.` must be used.
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
 * Division mustn't be used because it's slower than multiplication.
 * `===` and `!==` must be used when possible, not `==` or `!=`.
