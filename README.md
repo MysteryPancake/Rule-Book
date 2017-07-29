@@ -28,8 +28,8 @@
 * Unused keys or values in loops must be set as `_`.
 * Sequential tables must be iterated with `ipairs`.
 * `(` and `)` mustn't be used, unless essential.
-* Tables must be sequential whenever possible.
 * Tab indentation must be used, not spaces.
+* Tables must be sequential when possible.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
 * `math.randomseed` mustn't be used.
@@ -96,5 +96,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `?` and `!` variables mustn't be used.
 * Variable names must be in `camelCase`.
 * Unused variables must be set as `_`.
+* Unused pointers must be set as `nil`.
 * `DispatchQueue` mustn't be used.
+* `&` must be used for pointers.
 * Variables must be `private`.
