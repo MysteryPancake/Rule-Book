@@ -22,7 +22,6 @@
 * `if bool then` must be used, not `if bool == true then`.
 * Variables mustn't have the names of existing variables.
 * `local var = var` mustn't be used, unless for a module.
-* `math.random` must be used to generate random numbers.
 * `-var` or `not var` must be used to invert variables.
 * Unused function return variables must be set as `_`.
 * Unused keys or values in loops must be set as `_`.
