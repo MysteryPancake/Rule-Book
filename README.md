@@ -18,12 +18,13 @@
 * Strings must use `"`, not `'`, unless `[[` and `]]` are essential.
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
 * `local var = var` mustn't be used, unless essential in a module.
-* To check if a table is empty, `next(table) == nil` must be used.
-* To choose a random boolean, `math.random() > 0.5` must be used.
+* `next(table) == nil` must be used to check if a table is empty.
+* `math.random() > 0.5` must be used to choose a random boolean.
 * `math.random( 1, n )` must be shortened to `math.random( n )`.
 * Generic string variables must be named `str`, not `txt`.
 * Variables mustn't have the names of existing variables.
-* To invert variables `-var` or `not var` must be used.
+* `math.random` must be used to generate random numbers.
+* `-var` or `not var` must be used to invert variables.
 * Unused function return variables must be set as `_`.
 * Unused keys or values in loops must be set as `_`.
 * Sequential tables must be iterated with `ipairs`.
@@ -51,7 +52,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 
 ![Icon](ICON PATH?raw=true)
 ```
-* To add playermodels, `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used.
+* `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
 * Functions with applicable default arguments mustn't be called with the arguments.
 * Variable names must be in `camelCase`, except for functions.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
@@ -69,18 +70,19 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 ## Swift
 * Arrays with repeated variables must be initialized as `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
 * Dictionaries must be initialized as `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
-* To generate random numbers, `arc4random` or `arc4random_uniform` must be used.
+* `UserDefaults.standard` must be used to save data such as scores and progress.
+* `arc4random` or `arc4random_uniform` must be used to generate random numbers.
 * A newline mustn't be before the closing `}` of classes, functions or structs.
 * Expressions with the style of `x *= 0.75` must be used, not `x = x - x / 4`.
 * Classes must be initialized as `final` unless intended to be overridden.
-* When calling functions with specific arguments `.init` mustn't be used.
+* `.init` mustn't be used when calling functions with specific arguments.
 * Overridable classes must have as many `final` properties as possible.
-* To join variables with strings, `"String \(variable)"` must be used.
-* To invert variables, `-var` or `!var` must be used, not `var * -1`.
+* `"String \(variable)"` must be used to join variables with strings.
+* `-var` or `!var` must be used to invert variables, not `var * -1`.
 * Arrays must be initialized as `x: [Any] = []`, not `x = [Any]()`.
-* When calling functions with specific arguments, `.` must be used.
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
 * Division mustn't be used because it's slower than multiplication.
+* `.` must be used when calling functions with specific arguments.
 * `===` and `!==` must be used when possible, not `==` or `!=`.
 * Variables mustn't be type declared, unless they're numbers.
 * Variables must use `get`, `set` and `didSet` when possible.
@@ -95,8 +97,8 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Ranges in `for` loops mustn't include spaces.
 * `?` and `!` variables mustn't be used.
 * Variable names must be in `camelCase`.
-* Unused variables must be set as `_`.
 * Unused pointers must be set as `nil`.
+* Unused variables must be set as `_`.
 * `DispatchQueue` mustn't be used.
 * `&` must be used for pointers.
 * Variables must be `private`.
