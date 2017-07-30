@@ -12,22 +12,22 @@
 * Small unused scripts must be added to [the Fun repository](https://github.com/MysteryPancake/Fun).
 
 ## Lua
-* `If` statements in functions containing the rest of the code must instead `return end`.
-* Boolean variables must be checked with `if bool then`, not `if bool == true then`.
-* Expressions with the style of `x = x * 0.75` must be used, not `x = x - x / 4`.
+* `if` statements in functions containing the rest of the code must instead `return end`.
 * Strings must use `"`, not `'`, unless `[[` and `]]` are essential.
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
-* `local var = var` mustn't be used, unless essential in a module.
 * `next(table) == nil` must be used to check if a table is empty.
 * `math.random() > 0.5` must be used to choose a random boolean.
 * `math.random( 1, n )` must be shortened to `math.random( n )`.
 * Generic string variables must be named `str`, not `txt`.
+* `if bool then` must be used, not `if bool == true then`.
 * Variables mustn't have the names of existing variables.
+* `local var = var` mustn't be used, unless for a module.
 * `math.random` must be used to generate random numbers.
 * `-var` or `not var` must be used to invert variables.
 * Unused function return variables must be set as `_`.
 * Unused keys or values in loops must be set as `_`.
 * Sequential tables must be iterated with `ipairs`.
+* `x *= 0.75` must be used, not `x = x - x / 4`.
 * `(` and `)` mustn't be used, unless essential.
 * Tab indentation must be used, not spaces.
 * Tables must be sequential when possible.
@@ -73,7 +73,6 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `UserDefaults.standard` must be used to save data such as scores and progress.
 * `arc4random` or `arc4random_uniform` must be used to generate random numbers.
 * A newline mustn't be before the closing `}` of classes, functions or structs.
-* Expressions with the style of `x *= 0.75` must be used, not `x = x - x / 4`.
 * Classes must be initialized as `final` unless intended to be overridden.
 * `.init` mustn't be used when calling functions with specific arguments.
 * Overridable classes must have as many `final` properties as possible.
@@ -83,16 +82,18 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
 * Division mustn't be used because it's slower than multiplication.
 * `.` must be used when calling functions with specific arguments.
+* Extensions and enums must be used to reduce namespace clutter.
 * `===` and `!==` must be used when possible, not `==` or `!=`.
 * Variables mustn't be type declared, unless they're numbers.
 * Variables must use `get`, `set` and `didSet` when possible.
+* `if bool then` must be used, not `if bool == true then`.
 * `struct` must be used, not `class`, unless essential.
-* Extensions must be used to reduce namespace clutter.
 * Variables mustn't be above the level of `internal`.
 * Variables must be `let` unless `var` is essential.
 * `SKShapeNode` mustn't be used, as it leaks memory.
 * `Array` and `Dictionary` must be used, not `Set`.
 * Double space indentation must be used, not tabs.
+* `x *= 0.75` must be used, not `x = x - x / 4`.
 * `(` and `)` mustn't be used, unless essential.
 * Ranges in `for` loops mustn't include spaces.
 * `?` and `!` variables mustn't be used.
