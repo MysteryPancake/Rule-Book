@@ -29,11 +29,13 @@
 * Sequential tables must be iterated with `ipairs`.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
 * `(` and `)` mustn't be used, unless essential.
+* Metamethods mustn't be used unless essential.
 * Tab indentation must be used, not spaces.
 * Tables must be sequential when possible.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
 * `math.randomseed` mustn't be used.
+* `setmetatable` mustn't be used.
 * Variables must be `local`.
 * `;` mustn't be used.
 
@@ -57,6 +59,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Variable names must be in `camelCase`, except for functions.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * `and`, `or` and `not` must be used, not `&&`, `||` or `!`.
+* `if IsValid( obj ) then` must be used to validate objects.
 * `Panel` must be used, not `DPanel`.
 * Hooks must use anonymous functions.
 
@@ -69,6 +72,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 
 ## Swift
 * Arrays with repeated variables must be initialized as `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
+* `arc4random_uniform(max - min) + min` must be used to generate random numbers in a range.
 * Dictionaries must be initialized as `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * `UserDefaults.standard` must be used to save data such as scores and progress.
 * `arc4random` or `arc4random_uniform` must be used to generate random numbers.
