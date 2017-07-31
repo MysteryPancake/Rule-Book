@@ -20,6 +20,7 @@
 * `math.random( 1, n )` must be shortened to `math.random( n )`.
 * Generic string variables must be named `str`, not `txt`.
 * `if bool then` must be used, not `if bool == true then`.
+* Literal tables must be on a single line, unless wrapping.
 * Variables mustn't have the names of existing variables.
 * `local var = var` mustn't be used, unless for a module.
 * `-var` or `not var` must be used to invert variables.
@@ -39,13 +40,13 @@
 * `;` mustn't be used.
 
 ## Garry's Mod
-* Repositories intended for external use must be named with the style of `GMod-Insert-Name-Here`.
+* Repositories intended for external use must be named `GMod-Insert-Name-Here`.
 * Repositories must include the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod` and `gmod-lua`.
 * Repositories for Scripted Tools must include the tag `garrysmod-tool`.
-* Repository descriptions must have the style of `Insert Name Here for Garry's Mod`.
+* Repository descriptions must be `Insert Name Here for Garry's Mod`.
 * Repositories must include an addon icon image, and the associated Photoshop file.
 * Repositories must include a link to the addon.
-* Repository `README.md` files must use the following style:
+* Repository `README.md` files must use the following template:
 
 ```
 # Garry's Mod NAME
@@ -89,6 +90,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `===` and `!==` must be used when possible, not `==` or `!=`.
 * Variables mustn't be type declared, unless they're numbers.
 * Variables must use `get`, `set` and `didSet` when possible.
+* `if` statements must be on a single line, unless wrapping.
 * `if bool then` must be used, not `if bool == true then`.
 * `struct` must be used, not `class`, unless essential.
 * Variables mustn't be above the level of `internal`.
