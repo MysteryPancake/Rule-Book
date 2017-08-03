@@ -101,6 +101,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `x *= 0.75` must be used, not `x = x - x / 4`.
 * `(` and `)` mustn't be used, unless essential.
 * Ranges in `for` loops mustn't include spaces.
+* Unnecessary libraries mustn't be imported.
 * `?` and `!` variables mustn't be used.
 * Variable names must be in `camelCase`.
 * Unused pointers must be set as `nil`.
