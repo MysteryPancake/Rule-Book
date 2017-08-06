@@ -36,10 +36,12 @@
 * Strings must use `"`, not `'`, unless `[[` and `]]` are essential.
 * `next( table ) == nil` must be used to check if a table is empty.
 * `math.random( 1, n )` must be shortened to `math.random( n )`.
+* Strings in tables must be `tbl.string`, not `tbl[ "string" ]`.
 * `math.random() > 0.5` must be used to get a random boolean.
 * `local var = var` mustn't be used unless in a module.
 * Unused keys or values in loops must be set as `_`.
 * Sequential tables must be iterated with `ipairs`.
+* Generic table variables must be named `tbl`.
 * `not var` must be used to invert booleans.
 * Tab indentation must be used, not spaces.
 * Tables must be sequential when possible.
@@ -108,6 +110,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Ranges in `for` loops mustn't include spaces.
 * `===` and `!==` must be used when possible.
 * Unnecessary libraries mustn't be imported.
+* `&&` must be used unless `,` is essential.
 * `?` and `!` variables mustn't be used.
 * Unused pointers must be set as `nil`.
 * `DispatchQueue` mustn't be used.
