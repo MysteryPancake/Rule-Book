@@ -24,9 +24,10 @@
 * Generic string variables must be named `str`, not `txt`.
 * Variables mustn't have names of existing variables.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
-* `(` and `)` mustn't be used unless essential.
 * Variable names must be in `camelCase`.
 * Unused variables must be set as `_`.
+* No unnecessary `(` or `)`.
+* No unnecessary variables.
 * `;` mustn't be used.
 
 ## Lua
@@ -38,7 +39,6 @@
 * `local var = var` mustn't be used unless in a module.
 * Unused keys or values in loops must be set as `_`.
 * Sequential tables must be iterated with `ipairs`.
-* Metamethods mustn't be used unless essential.
 * `not var` must be used to invert booleans.
 * Tab indentation must be used, not spaces.
 * Tables must be sequential when possible.
@@ -46,6 +46,7 @@
 * Spacing must be between everything.
 * `math.randomseed` mustn't be used.
 * `setmetatable` mustn't be used.
+* No unnecessary metamethods.
 * Variables must be `local`.
 * `select` mustn't be used.
 
