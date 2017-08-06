@@ -74,18 +74,16 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Errors must be handled safely.
 
 ## Swift
-* Arrays with repeated variables must be initialized as `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
+* Arrays with repeated variables must be `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
 * `arc4random_uniform(max - min) + min` must be used to get random numbers in a range.
-* Dictionaries must be initialized as `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * `UserDefaults.standard` must be used to save data such as scores and progress.
 * A newline mustn't be before the closing `}` of classes, functions or structs.
 * `arc4random` or `arc4random_uniform` must be used to get random numbers.
-* Classes must be initialized as `final` unless intended to be overridden.
 * `.init` mustn't be used when calling functions with specific arguments.
 * Overridable classes must have as many `final` properties as possible.
 * `"String \(variable)"` must be used to join variables with strings.
+* Dictionaries must be `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * `-var` or `!var` must be used to invert variables, not `var * -1`.
-* Arrays must be initialized as `x: [Any] = []`, not `x = [Any]()`.
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
 * Division mustn't be used because it's slower than multiplication.
 * `.` must be used when calling functions with specific arguments.
@@ -95,9 +93,11 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Variables mustn't be type declared, unless they're numbers.
 * Variables must use `get`, `set` and `didSet` when possible.
 * `if` statements must be on a single line, unless wrapping.
+* Classes must be `final` unless intended to be overridden.
 * `if bool then` must be used, not `if bool == true then`.
 * `struct` must be used, not `class`, unless essential.
 * Variables mustn't be above the level of `internal`.
+* Arrays must be `x: [Any] = []`, not `x = [Any]()`.
 * Variables must be `let` unless `var` is essential.
 * `SKShapeNode` mustn't be used, as it leaks memory.
 * `Array` and `Dictionary` must be used, not `Set`.
