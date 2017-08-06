@@ -86,6 +86,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
 * Division mustn't be used because it's slower than multiplication.
 * `.` must be used when calling functions with specific arguments.
+* Generic variables set as `SKAction.wait` must be named `delay`.
 * Extensions and enums must be used to reduce namespace clutter.
 * `===` and `!==` must be used when possible, not `==` or `!=`.
 * Variables mustn't be type declared, unless they're numbers.
