@@ -56,6 +56,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 ```
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
 * Functions with applicable default arguments mustn't be called with the arguments.
+* Functions with enum arguments mustn't be called with decimal values.
 * Variable names must be in `camelCase`, except for functions.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * `and`, `or` and `not` must be used, not `&&`, `||` or `!`.
