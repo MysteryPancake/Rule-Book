@@ -12,22 +12,22 @@
 * Small unused scripts must be added to [the Fun repository](https://github.com/MysteryPancake/Fun).
 
 ## Lua
-* `if` statements in functions containing the rest of the code must instead `return end`.
 * `tbl[ math.random( #tbl ) ]` must be used to get a random value from a table.
 * Strings must use `"`, not `'`, unless `[[` and `]]` are essential.
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
 * `next(table) == nil` must be used to check if a table is empty.
-* `math.random() > 0.5` must be used to choose a random boolean.
 * `math.random( 1, n )` must be shortened to `math.random( n )`.
+* `math.random() > 0.5` must be used to get a random boolean.
+* `if` statements containing lots of code must `return end`.
 * Generic string variables must be named `str`, not `txt`.
 * `if bool then` must be used, not `if bool == true then`.
-* Literal tables must be on a single line, unless wrapping.
 * Variables mustn't have the names of existing variables.
 * `local var = var` mustn't be used, unless for a module.
 * `-var` or `not var` must be used to invert variables.
 * Unused function return variables must be set as `_`.
 * Unused keys or values in loops must be set as `_`.
 * Sequential tables must be iterated with `ipairs`.
+* Tables must be on a single line, unless wrapping.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
 * `(` and `)` mustn't be used, unless essential.
 * Metamethods mustn't be used unless essential.
@@ -75,11 +75,11 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 
 ## Swift
 * Arrays with repeated variables must be initialized as `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
-* `arc4random_uniform(max - min) + min` must be used to generate random numbers in a range.
+* `arc4random_uniform(max - min) + min` must be used to get random numbers in a range.
 * Dictionaries must be initialized as `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * `UserDefaults.standard` must be used to save data such as scores and progress.
-* `arc4random` or `arc4random_uniform` must be used to generate random numbers.
 * A newline mustn't be before the closing `}` of classes, functions or structs.
+* `arc4random` or `arc4random_uniform` must be used to get random numbers.
 * Classes must be initialized as `final` unless intended to be overridden.
 * `.init` mustn't be used when calling functions with specific arguments.
 * Overridable classes must have as many `final` properties as possible.
