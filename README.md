@@ -62,6 +62,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * `and`, `or` and `not` must be used, not `&&`, `||` or `!`.
 * `if IsValid( obj ) then` must be used to validate objects.
+* `CurTime` must be used, not `SysTime`.
 * `Panel` must be used, not `DPanel`.
 * Hooks must use anonymous functions.
 * `table.Random` mustn't be used.
