@@ -47,6 +47,7 @@
 * `math.randomseed` mustn't be used.
 * `setmetatable` mustn't be used.
 * Variables must be `local`.
+* `select` mustn't be used.
 
 ## Garry's Mod
 * Repositories intended for external use must be named `GMod-Insert-Name-Here`.
