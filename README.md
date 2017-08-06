@@ -26,6 +26,7 @@
 * `x *= 0.75` must be used, not `x = x - x / 4`.
 * Variable names must be in `camelCase`.
 * Unused variables must be set as `_`.
+* No unnecessary variables in loops.
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
 * `;` mustn't be used.
@@ -73,6 +74,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `Panel` must be used, not `DPanel`.
 * Hooks must use anonymous functions.
 * `table.Random` mustn't be used.
+* `Material` must be cached.
 
 ## XCode
 * The iOS requirement must be kept as low as possible.
@@ -96,9 +98,9 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Variables mustn't be type declared unless they're numbers.
 * Variables must use `get`, `set` and `didSet` when possible.
 * Classes must be `final` unless intended to be overridden.
-* `struct` must be used, not `class`, unless essential.
 * Variables mustn't be above the level of `internal`.
 * Arrays must be `x: [Any] = []`, not `x = [Any]()`.
+* `struct` must be used, not `class`, when possible.
 * `SKShapeNode` mustn't be used as it leaks memory.
 * `Array` or `Dictionary` must be used, not `Set`.
 * Double space indentation must be used, not tabs.
