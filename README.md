@@ -13,6 +13,7 @@
 
 ## Lua
 * `if` statements in functions containing the rest of the code must instead `return end`.
+* `tbl[ math.random( #tbl ) ]` must be used to get a random value from a table.
 * Strings must use `"`, not `'`, unless `[[` and `]]` are essential.
 * `for` loops must be used, not `while`, `repeat` or `until` loops.
 * `next(table) == nil` must be used to check if a table is empty.
@@ -63,6 +64,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `if IsValid( obj ) then` must be used to validate objects.
 * `Panel` must be used, not `DPanel`.
 * Hooks must use anonymous functions.
+* `table.Random` mustn't be used.
 
 ## XCode
 * The iOS requirement must be kept as low as possible.
@@ -111,3 +113,4 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `DispatchQueue` mustn't be used.
 * `&` must be used for pointers.
 * Variables must be `private`.
+* `UInt` mustn't be used.
