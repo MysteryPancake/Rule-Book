@@ -77,7 +77,6 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Arrays with repeated variables must be `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
 * `arc4random_uniform(max - min) + min` must be used to get random numbers in a range.
 * `UserDefaults.standard` must be used to save data such as scores and progress.
-* A newline mustn't be before the closing `}` of classes, functions or structs.
 * `arc4random` or `arc4random_uniform` must be used to get random numbers.
 * `.init` mustn't be used when calling functions with specific arguments.
 * Overridable classes must have as many `final` properties as possible.
@@ -111,6 +110,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Unused pointers must be set as `nil`.
 * Unused variables must be set as `_`.
 * `DispatchQueue` mustn't be used.
+* A newline mustn't be before `}`.
 * `&` must be used for pointers.
 * Variables must be `private`.
 * `UInt` mustn't be used.
