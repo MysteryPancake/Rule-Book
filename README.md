@@ -89,7 +89,6 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `.` must be used when calling functions with specific arguments.
 * Generic variables set as `SKAction.wait` must be named `delay`.
 * Extensions and enums must be used to reduce namespace clutter.
-* `===` and `!==` must be used when possible, not `==` or `!=`.
 * Variables mustn't be type declared, unless they're numbers.
 * Variables must use `get`, `set` and `didSet` when possible.
 * `if` statements must be on a single line, unless wrapping.
@@ -105,6 +104,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `x *= 0.75` must be used, not `x = x - x / 4`.
 * `(` and `)` mustn't be used, unless essential.
 * Ranges in `for` loops mustn't include spaces.
+* `===` and `!==` must be used when possible.
 * Unnecessary libraries mustn't be imported.
 * `?` and `!` variables mustn't be used.
 * Variable names must be in `camelCase`.
