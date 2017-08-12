@@ -48,7 +48,6 @@
 * Tables must be sequential when possible.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
-* `math.randomseed` mustn't be used.
 * No unnecessary metamethods.
 * `select` mustn't be used.
 
