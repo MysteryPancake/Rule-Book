@@ -16,7 +16,6 @@
 * General `string` variables must be named `str`, not `txt`, or `text`.
 * `-var` or `!var` must be used to invert variables, not `var * -1`.
 * Functions with `enum` arguments mustn't be called with raw values.
-* `for` loops must be used, not `while`, `repeat`, or `until` loops.
 * Division mustn't be used because it's slower than multiplication.
 * Literal collections must be on a single line unless wrapping.
 * `if` statements containing lots of code must `return end`.
