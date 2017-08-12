@@ -40,7 +40,6 @@
 * `math.random( 1, n )` must be shortened to `math.random( n )`.
 * Strings in tables must be `tbl.string`, not `tbl[ "string" ]`.
 * `math.random() >= 0.5` must be used to get a random boolean.
-* `local var = var` mustn't be used unless in a module.
 * Unused keys or values in loops must be set as `_`.
 * General table variables must be named `tbl`.
 * `not var` must be used to invert booleans.
