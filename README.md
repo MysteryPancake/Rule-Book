@@ -26,6 +26,7 @@
 * Variable names must be in `camelCase`.
 * Unused variables must be set as `_`.
 * No unnecessary variables in loops.
+* `local var = var` mustn't be used unless in a module.
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
 * `;` mustn't be used.
@@ -47,6 +48,7 @@
 * Tables must be sequential where possible.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
+* No unnecessary `local var = var`.
 * No unnecessary metamethods.
 * `select` mustn't be used.
 
