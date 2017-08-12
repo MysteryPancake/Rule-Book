@@ -34,7 +34,7 @@
 * `tbl[ math.random( #tbl ) ]` must be used to get a random value from a table.
 * Sequential tables must be iterated with `ipairs` or a numeric `for` loop.
 * `next( table ) == nil` must be used to check if a string-table is empty.
-* Variables must be `local` unless intended to be overridden globally.
+* Variables must be `local` unless intended to be globally overridden.
 * Strings must use `"`, not `'`, unless `[[` and `]]` are essential.
 * `#table == 0` must be used to check if an integer-table is empty.
 * `math.random( 1, n )` must be shortened to `math.random( n )`.
