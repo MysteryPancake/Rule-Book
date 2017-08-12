@@ -48,7 +48,6 @@
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
 * `math.randomseed` mustn't be used.
-* `setmetatable` mustn't be used.
 * No unnecessary metamethods.
 * Variables must be `local`.
 * `select` mustn't be used.
