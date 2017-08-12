@@ -26,7 +26,6 @@
 * Variable names must be in `camelCase`.
 * Unused variables must be set as `_`.
 * No unnecessary variables in loops.
-* `local var = var` mustn't be used unless in a module.
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
 * `;` mustn't be used.
