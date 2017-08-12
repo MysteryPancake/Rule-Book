@@ -32,6 +32,7 @@
 
 ## Lua
 * `tbl[ math.random( #tbl ) ]` must be used to get a random value from a table.
+* Sequential tables must be iterated with `ipairs` or a numeric `for` loop.
 * `next( table ) == nil` must be used to check if a string-table is empty.
 * Variables must be `local` unless intended to be overridden globally.
 * Strings must use `"`, not `'`, unless `[[` and `]]` are essential.
@@ -41,7 +42,6 @@
 * `math.random() >= 0.5` must be used to get a random boolean.
 * `local var = var` mustn't be used unless in a module.
 * Unused keys or values in loops must be set as `_`.
-* Sequential tables must be iterated with `ipairs`.
 * General table variables must be named `tbl`.
 * `not var` must be used to invert booleans.
 * Tab indentation must be used, not spaces.
