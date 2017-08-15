@@ -67,8 +67,9 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 ![Icon](ICON PATH?raw=true)
 ```
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
-* `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
+* Assume all client data sent to the server has malicious intent.
 * `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
+* `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * `CurTime` must be used, not `RealTime` or `SysTime`.
 * `IsValid( obj )` must be used to validate objects.
 * `Panel` must be used, not `DPanel`.
