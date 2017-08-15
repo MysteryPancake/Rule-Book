@@ -23,6 +23,7 @@
 * `if bool then` must be used, not `if bool == true then`.
 * Variables mustn't have names of existing variables.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
+* Validate, sanitize and escape user data.
 * Variable names must be in `camelCase`.
 * Unused variables must be set as `_`.
 * No unnecessary variables in loops.
