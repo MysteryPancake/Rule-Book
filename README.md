@@ -70,6 +70,7 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
 * `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
+* General player variables must be named `ply`, not `pl`.
 * Assume data sent to the server has malicious intent.
 * `CurTime` must be used, not `RealTime` or `SysTime`.
 * `IsValid( obj )` must be used to validate objects.
@@ -95,11 +96,11 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `"String \(variable)"` must be used to join variables with strings.
 * Dictionaries must be `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * `.` must be used when calling functions with specific arguments.
-* General variables set as `SKAction.wait` must be named `delay`.
 * Extensions and enums must be used to reduce namespace clutter.
 * Variables must use `get`, `set`, and `didSet` where possible.
 * Variables mustn't be type declared unless they're numbers.
 * Classes must be `final` unless intended to be overridden.
+* General `SKAction.wait` variables must be named `delay`.
 * `struct` must be used, not `class`, where possible.
 * Variables mustn't be above the level of `internal`.
 * Arrays must be `x: [Any] = []`, not `x = [Any]()`.
