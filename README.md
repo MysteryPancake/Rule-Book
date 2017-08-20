@@ -28,6 +28,7 @@
 * Variable names must be in `camelCase`.
 * Unused variables must be set as `_`.
 * No unnecessary variables in loops.
+* Strings must use `"`, not `'`.
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
 * `;` mustn't be used.
@@ -37,7 +38,6 @@
 * Sequential tables must be iterated with `ipairs` or a numeric `for` loop.
 * `next( table ) == nil` must be used to check if a string-table is empty.
 * Variables must be `local` unless intended to be globally overridden.
-* Strings must use `"`, not `'`, unless `[[` and `]]` are essential.
 * `#table == 0` must be used to check if an integer-table is empty.
 * `math.random( 1, n )` must be shortened to `math.random( n )`.
 * Strings in tables must be `tbl.string`, not `tbl[ "string" ]`.
@@ -120,3 +120,10 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `&` must be used for pointers.
 * Variables must be `private`.
 * `UInt` mustn't be used.
+
+## CSS
+* Alphabetize declarations.
+
+## JavaScript
+* `haystack.indexOf(needle) !== -1;` must be used to check if a `string` contains another.
+* `XMLHttpRequest` must be asynchronous.
