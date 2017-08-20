@@ -73,8 +73,8 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * General player variables must be named `ply`, not `pl`.
 * Assume data sent to the server has malicious intent.
-* `CurTime` must be used, not `RealTime` or `SysTime`.
 * `IsValid( obj )` must be used to validate objects.
+* `SysTime` must be used for benchmarking.
 * `Panel` must be used, not `DPanel`.
 * Hooks must use anonymous functions.
 * `table.Random` mustn't be used.
