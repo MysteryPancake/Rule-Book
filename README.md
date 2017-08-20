@@ -19,9 +19,9 @@
 * Functions with `enum` arguments mustn't be called with raw values.
 * Division mustn't be used because it's slower than multiplication.
 * Literal collections must be on a single line unless wrapping.
-* `if` statements containing lots of code must `return end`.
 * `if` statements must be on a single line unless wrapping.
 * `if bool then` must be used, not `if bool == true then`.
+* `return` early from functions containing lots of code.
 * Variables mustn't have names of existing variables.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
 * Validate, sanitize and escape user data.
