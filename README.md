@@ -1,5 +1,6 @@
 # MysteryPancake's Rule Book
 ## GitHub
+### General
 * Editing code directly on this site mustn't occur (too often).
 * Repository names must have capitals at the start of each word.
 * Repository names must use `-` to separate words.
@@ -11,8 +12,24 @@
 * Variables to insert must be named `VARIABLE_HERE`, not `INSERT_VARIABLE_HERE`.
 * Images in `README.md` files must be included in the repository, not on an external site.
 * Small unused scripts must be added to [the Fun repository](https://github.com/MysteryPancake/Fun).
+### Garry's Mod
+* Repositories intended for external use must be named `GMod-Insert-Name-Here`.
+* Repositories must include the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod`, and `gmod-lua`.
+* Repositories for Scripted Tools must include the tag `garrysmod-tool`.
+* Repository descriptions must be `Insert Name Here for Garry's Mod`.
+* Repositories must include an addon icon image and the associated Photoshop file.
+* Repositories must include a link to the addon.
+* Repository `README.md` files must use the following template:
 
-## General
+```
+# Garry's Mod NAME
+All the code for my NAME addon can be found here, and the actual addon is available [here](ADDON LINK).
+
+![Icon](ICON PATH?raw=true)
+```
+
+## Programming
+### General
 * Functions with applicable default arguments mustn't be called with the arguments.
 * General `string` variables must be named `str`, not `txt`, or `text`.
 * `-var` or `!var` must be used to invert variables, not `var * -1`.
@@ -33,7 +50,7 @@
 * No unnecessary variables.
 * `;` mustn't be used.
 
-## Lua
+### Lua
 * `tbl[ math.random( #tbl ) ]` must be used to get a random value from a table.
 * Sequential tables must be iterated with `ipairs` or a numeric `for` loop.
 * `next( table ) == nil` must be used to check if a string-table is empty.
@@ -53,21 +70,7 @@
 * No unnecessary metamethods.
 * `select` mustn't be used.
 
-## Garry's Mod
-* Repositories intended for external use must be named `GMod-Insert-Name-Here`.
-* Repositories must include the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod`, and `gmod-lua`.
-* Repositories for Scripted Tools must include the tag `garrysmod-tool`.
-* Repository descriptions must be `Insert Name Here for Garry's Mod`.
-* Repositories must include an addon icon image and the associated Photoshop file.
-* Repositories must include a link to the addon.
-* Repository `README.md` files must use the following template:
-
-```
-# Garry's Mod NAME
-All the code for my NAME addon can be found here, and the actual addon is available [here](ADDON LINK).
-
-![Icon](ICON PATH?raw=true)
-```
+### Garry's Mod
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
 * `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
@@ -80,14 +83,14 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `table.Random` mustn't be used.
 * `Material` must be cached.
 
-## XCode
+### XCode
 * The iOS requirement must be kept as low as possible.
 * Projects must include a complete icon set.
 * All build warnings must be enabled.
 * Warnings must be treated as errors.
 * Errors must be handled safely.
 
-## Swift
+### Swift
 * Repeating arrays must be `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
 * `arc4random_uniform(max - min) + min` must be used to get random numbers in a range.
 * `UserDefaults.standard` must be used to save data such as scores and progress.
@@ -121,9 +124,9 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * Variables must be `private`.
 * `UInt` mustn't be used.
 
-## CSS
+### CSS
 * Alphabetize declarations.
 
-## JavaScript
+### JavaScript
 * `haystack.indexOf(needle) !== -1;` must be used to check if a `string` contains another.
 * `XMLHttpRequest` must be asynchronous.
