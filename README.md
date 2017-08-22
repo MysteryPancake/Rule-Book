@@ -9,15 +9,15 @@
 * Repository descriptions must be as short as possible.
 * Repositories intended for personal use must include an `MIT License` with `MysteryPancake` as the legal name.
 * Repositories intended for external use mustn't include a license.
-* Variables to insert must be named `{VARIABLE}`, not `INSERT_VARIABLE_HERE`.
+* Variables to insert must be named `{variable}`, not `insert_variable_here`.
 * Images in `README.md` files must be included in the repository, not on an external site.
 * Small unused scripts must be added to [the Fun repository](https://github.com/MysteryPancake/Fun).
 
 ### Garry's Mod
-* Repositories intended for external use must be named `GMod-Insert-Name-Here`.
+* Repositories intended for external use must be named `GMod-{Addon-Name}`.
 * Repositories must include the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod`, and `gmod-lua`.
 * Repositories for Scripted Tools must include the tag `garrysmod-tool`.
-* Repository descriptions must be `Insert Name Here for Garry's Mod`.
+* Repository descriptions must be `{Addon Name} for Garry's Mod`.
 * Repositories must include an addon icon image and the associated Photoshop file.
 * Repositories must include a link to the addon.
 * Repository `README.md` files must use the following template:
