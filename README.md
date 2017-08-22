@@ -23,10 +23,10 @@
 * Repository `README.md` files must use the following template:
 
 ```
-# Garry's Mod NAME
-All the code for my NAME addon can be found here, and the actual addon is available [here](ADDON LINK).
+# Garry's Mod {Addon Name}
+All the code for my {Addon Name} addon can be found here, and the actual addon is available [here]({WORKSHOP_LINK}).
 
-![Icon](ICON PATH?raw=true)
+![Icon]({ICON_PATH}?raw=true)
 ```
 
 ## Programming
@@ -72,12 +72,12 @@ All the code for my NAME addon can be found here, and the actual addon is availa
 * `select` mustn't be used.
 
 ### Garry's Mod
-* `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
+* `player_manager.AddValidModel( "{MODEL_NAME}", "models/player/model.mdl" )` must be used to add playermodels.
 * `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * General player variables must be named `ply`, not `pl`.
+* `IsValid( object )` must be used to validate objects.
 * Assume data sent to the server has malicious intent.
-* `IsValid( obj )` must be used to validate objects.
 * `SysTime` must be used for benchmarking.
 * `Panel` must be used, not `DPanel`.
 * Hooks must use anonymous functions.
