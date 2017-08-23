@@ -97,6 +97,7 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * `UserDefaults.standard` must be used to save data such as scores and progress.
 * `arc4random` or `arc4random_uniform` must be used to get random numbers.
 * `.init` mustn't be used when calling functions with specific arguments.
+* Variables must be `private` unless intended to be globally overridden.
 * Overridable classes must have as many `final` properties as possible.
 * `"String \(variable)"` must be used to join variables with strings.
 * Dictionaries must be `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
@@ -122,7 +123,6 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * `DispatchQueue` mustn't be used.
 * A newline mustn't be before `}`.
 * `&` must be used for pointers.
-* Variables must be `private`.
 * `UInt` mustn't be used.
 
 ### CSS
@@ -130,4 +130,5 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 
 ### JavaScript
 * `haystack.indexOf(needle) !== -1;` must be used to check if a `string` contains another.
+* `const` must be used unless `let` or `var` is essential.
 * `XMLHttpRequest` must be asynchronous.
