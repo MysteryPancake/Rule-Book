@@ -69,6 +69,7 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * Spacing must be between everything.
 * No unnecessary `local var = var`.
 * No unnecessary metamethods.
+* `module` mustn't be used.
 * `select` mustn't be used.
 
 ### Garry's Mod
