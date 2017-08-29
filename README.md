@@ -80,7 +80,9 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * General player variables must be named `ply`, not `pl`.
 * Assume data sent to the server has malicious intent.
+* `CurTime` must be used for in-game events.
 * `SysTime` must be used for benchmarking.
+* `RealTime` must be used for HUD events.
 * `Panel` must be used, not `DPanel`.
 * Hooks must use anonymous functions.
 * `table.Random` mustn't be used.
