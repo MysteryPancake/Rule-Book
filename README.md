@@ -65,12 +65,12 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * General table variables must be named `tbl`.
 * `not var` must be used to invert booleans.
 * Tab indentation must be used, not spaces.
-* Tables must be sequential where possible.
+* Tables must be sequential when possible.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
-* No unnecessary `local var = var`.
+* [No unnecessary `local var = var`](http://lua-users.org/wiki/OptimisingUsingLocalVariables).
 * No unnecessary metamethods.
-* `module` mustn't be used.
+* [`module` mustn't be used](http://lua-users.org/wiki/LuaModuleFunctionCritiqued).
 * `select` mustn't be used.
 
 ### Garry's Mod
@@ -104,11 +104,11 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * Dictionaries must be `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * `.` must be used when calling functions with specific arguments.
 * Extensions and enums must be used to reduce namespace clutter.
-* Variables must use `get`, `set`, and `didSet` where possible.
+* Variables must use `get`, `set`, and `didSet` when possible.
 * Variables mustn't be type declared unless they're numbers.
 * Classes must be `final` unless intended to be overridden.
 * General `SKAction.wait` variables must be named `delay`.
-* `struct` must be used, not `class`, where possible.
+* `struct` must be used, not `class`, when possible.
 * Variables mustn't be above the level of `internal`.
 * Arrays must be `x: [Any] = []`, not `x = [Any]()`.
 * `SKShapeNode` mustn't be used as it leaks memory.
@@ -116,7 +116,7 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * Double space indentation must be used, not tabs.
 * `let` must be used unless `var` is essential.
 * Ranges in `for` loops mustn't include spaces.
-* `===` and `!==` must be used where possible.
+* `===` and `!==` must be used when possible.
 * Unnecessary libraries mustn't be imported.
 * `&&` must be used unless `,` is essential.
 * `?` and `!` variables mustn't be used.
