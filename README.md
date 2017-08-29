@@ -11,7 +11,7 @@
 * Repositories intended for external use mustn't include a license.
 * Variables to insert must be named `{VARIABLE}`, not `INSERT_VARIABLE_HERE`.
 * Images in `README.md` files must be included in the repository, not on an external site.
-* Small unused scripts must be added to [the Fun repository](https://github.com/MysteryPancake/Fun).
+* Small unused scripts must be added to the [Fun repository](https://github.com/MysteryPancake/Fun).
 
 ### Garry's Mod
 * Repositories intended for external use must be named `GMod-{Addon-Name}`.
@@ -35,21 +35,22 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * General `string` variables must be named `str`, not `txt`, or `text`.
 * `-var` or `!var` must be used to invert variables, not `var * -1`.
 * Functions with `enum` arguments mustn't be called with raw values.
-* Division mustn't be used because it's slower than multiplication.
 * Literal collections must be on a single line unless wrapping.
 * `if` statements must be on a single line unless wrapping.
 * `if bool then` must be used, not `if bool == true then`.
+* Variables mustn't share the names of existing variables.
 * `return` early from functions containing lots of code.
-* Variables mustn't have names of existing variables.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
+* [Multiplication must be used, not division](https://stackoverflow.com/questions/226465).
 * Validate, sanitize and escape user data.
 * Variable names must be in `camelCase`.
 * Unused variables must be set as `_`.
 * No unnecessary variables in loops.
 * Strings must use `"`, not `'`.
+* Errors must be handled safely.
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
-* `;` mustn't be used.
+* [`;` mustn't be used](https://stackoverflow.com/questions/16862337).
 
 ### Lua
 * `tbl[ math.random( #tbl ) ]` must be used to get a random value from a table.
@@ -90,7 +91,6 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * Projects must include a complete icon set.
 * All build warnings must be enabled.
 * Warnings must be treated as errors.
-* Errors must be handled safely.
 
 ### Swift
 * Repeating arrays must be `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
@@ -99,7 +99,7 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * `arc4random` or `arc4random_uniform` must be used to get random numbers.
 * `.init` mustn't be used when calling functions with specific arguments.
 * Variables must be `private` unless intended to be globally overridden.
-* Overridable classes must have as many `final` properties as possible.
+* [Overridable classes must have as many `final` properties as possible](https://stackoverflow.com/questions/35818703).
 * `"String \(variable)"` must be used to join variables with strings.
 * Dictionaries must be `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * `.` must be used when calling functions with specific arguments.
@@ -123,8 +123,11 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * Unused pointers must be set as `nil`.
 * `DispatchQueue` mustn't be used.
 * A newline mustn't be before `}`.
+* [`Int` must be used, not `UInt`](https://stackoverflow.com/questions/24180630).
 * `&` must be used for pointers.
-* `UInt` mustn't be used.
+
+### HTML
+* [`<title>` must be used](https://validator.w3.org).
 
 ### CSS
 * Alphabetize declarations.
