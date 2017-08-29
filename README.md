@@ -11,6 +11,7 @@
 * Repositories intended for external use mustn't include a license.
 * Variables to insert must be named `{VARIABLE}`, not `INSERT_VARIABLE_HERE`.
 * Images in `README.md` files must be included in the repository, not on an external site.
+* [Commits closing issues must be named `resolved`, `fixes`, or `resolves`, followed by the issue number](https://help.github.com/articles/closing-issues-using-keywords).
 * Small unused scripts must be added to the [Fun repository](https://github.com/MysteryPancake/Fun).
 
 ### Garry's Mod
