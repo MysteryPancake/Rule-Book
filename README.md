@@ -75,10 +75,10 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 
 ### Garry's Mod
 * `player_manager.AddValidModel( "{MODEL_NAME}", "models/player/model.mdl" )` must be used to add playermodels.
+* [`IsValid( var )` must be used for validation, not `var:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
 * `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * General player variables must be named `ply`, not `pl`.
-* `IsValid( object )` must be used to validate objects.
 * Assume data sent to the server has malicious intent.
 * `SysTime` must be used for benchmarking.
 * `Panel` must be used, not `DPanel`.
