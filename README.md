@@ -131,6 +131,7 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 
 ### HTML
 * [`<meta name="viewport" content="width=device-width, initial-scale=1">` must be used for mobile display](http://gethead.info).
+* [`<meta charset="utf-8">` must be used](http://gethead.info).
 * [`<title>` must be used](http://validator.w3.org).
 
 ### CSS
