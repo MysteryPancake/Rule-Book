@@ -130,6 +130,7 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * `&` must be used for pointers.
 
 ### HTML
+* [`<meta name="viewport" content="width=device-width, initial-scale=1">` must be used for mobile display](https://gethead.info/#recommended-minimum).
 * [`<title>` must be used](https://validator.w3.org).
 
 ### CSS
