@@ -139,5 +139,5 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 
 ### JavaScript
 * `haystack.indexOf(needle) !== -1;` must be used to check if a `string` contains another.
-* `const` must be used unless `let` or `var` is essential.
-* `XMLHttpRequest` must be asynchronous.
+* [`const` must be used unless `let` or `var` is essential](http://ponyfoo.com/articles/var-let-const).
+* [`XMLHttpRequest` must be asynchronous](http://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
