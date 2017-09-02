@@ -9,7 +9,7 @@
 * Repository descriptions must be as short as possible.
 * Repositories intended for personal use must include an `MIT License` with `MysteryPancake` as the legal name.
 * Repositories intended for external use mustn't include a license.
-* Variables to insert must be named `{VARIABLE}`, not `INSERT_VARIABLE_HERE`.
+* Variables to insert must be named `<VARIABLE>`, not `INSERT_VARIABLE_HERE`.
 * Images in `README.md` files must be included in the repository, not on an external site.
 * [Commits closing issues must be named `resolved`, `fixes`, or `resolves`, followed by the issue number](http://help.github.com/articles/closing-issues-using-keywords).
 * Small unused scripts must be added to the [Fun repository](http://github.com/MysteryPancake/Fun).
