@@ -15,19 +15,19 @@
 * Small unused scripts must be added to the [Fun repository](http://github.com/MysteryPancake/Fun).
 
 ### Garry's Mod
-* Repositories intended for external use must be named `GMod-{Addon-Name}`.
+* Repositories intended for external use must be named `GMod-<Addon-Name>`.
 * Repositories must include the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod`, and `gmod-lua`.
 * Repositories for Scripted Tools must include the tag `garrysmod-tool`.
-* Repository descriptions must be `{Addon Name} for Garry's Mod`.
+* Repository descriptions must be `<Addon Name> for Garry's Mod`.
 * Repositories must include an addon icon image and the associated Photoshop file.
 * Repositories must include a link to the addon.
 * Repository `README.md` files must use the following template:
 
 ```
-# Garry's Mod {Addon Name}
-All the code for my {Addon Name} addon can be found here, and the actual addon is available [here]({WORKSHOP_LINK}).
+# Garry's Mod <Addon Name>
+All the code for my <Addon Name> addon can be found here, and the actual addon is available [here](<WORKSHOP_LINK>).
 
-![Icon]({ICON_PATH}?raw=true)
+![Icon](<ICON_PATH>?raw=true)
 ```
 
 ## Programming
@@ -75,7 +75,7 @@ All the code for my {Addon Name} addon can be found here, and the actual addon i
 * `select` mustn't be used.
 
 ### Garry's Mod
-* `player_manager.AddValidModel( "{MODEL_NAME}", "models/player/model.mdl" )` must be used to add playermodels.
+* `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
 * [`IsValid( var )` must be used for validation, not `var:IsValid()`](http://github.com/MysteryPancake/Rule-Book/issues/4).
 * `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
