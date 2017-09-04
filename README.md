@@ -50,7 +50,6 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * No unnecessary variables in loops.
 * Strings must use `"`, not `'`.
 * Errors must be handled safely.
-* [Hex colors must be uppercase](http://stackoverflow.com/questions/32695983).
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
 * [`;` mustn't be used](http://stackoverflow.com/questions/16862337).
@@ -137,6 +136,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * [`<title>` must be used](http://validator.w3.org).
 
 ### CSS
+* [Hex colors must be uppercase](http://stackoverflow.com/questions/32695983).
 * Alphabetize declarations.
 
 ### JavaScript
