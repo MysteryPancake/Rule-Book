@@ -10,7 +10,7 @@
 * Repositories intended for personal use must include an `MIT License` with `MysteryPancake` as the legal name.
 * Repositories intended for external use mustn't include a license.
 * Variables to insert must be named `<VARIABLE>`, not `INSERT_VARIABLE_HERE`.
-* Images in `README.md` files must be included in the repository, not on an external site.
+* Images in `README` files must be included in the repository, not on an external site.
 * [Commits closing issues must be named `resolved`, `fixes`, or `resolves`, followed by the issue number](http://help.github.com/articles/closing-issues-using-keywords).
 * Small unused scripts must be added to the [Fun repository](http://github.com/MysteryPancake/Fun).
 
@@ -21,7 +21,7 @@
 * Repository descriptions must be `<Addon Name> for Garry's Mod`.
 * Repositories must include an addon icon image and the associated Photoshop file.
 * Repositories must include a link to the addon.
-* Repository `README.md` files must use the following template:
+* Repository `README` files must use the following template:
 
 ```
 # Garry's Mod <Addon Name>
@@ -41,14 +41,16 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `if bool then` must be used, not `if bool == true then`.
 * Variables mustn't share the names of existing variables.
 * `return` early from functions containing lots of code.
+* Unused variables must be set as `_`, or removed.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
 * [Multiplication must be used, not division](http://stackoverflow.com/questions/226465).
 * Validate, sanitize and escape user data.
 * Variable names must be in `camelCase`.
-* Unused variables must be set as `_`.
+* [`General` must be used, not `generic`](http://ell.stackexchange.com/questions/16224).
 * No unnecessary variables in loops.
 * Strings must use `"`, not `'`.
 * Errors must be handled safely.
+* [Hex colors must be uppercase](http://stackoverflow.com/questions/32695983).
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
 * [`;` mustn't be used](http://stackoverflow.com/questions/16862337).
