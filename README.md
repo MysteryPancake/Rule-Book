@@ -11,8 +11,8 @@
 * Repositories intended for external use mustn't include a license.
 * Variables to insert must be named `<VARIABLE>`, not `INSERT_VARIABLE_HERE`.
 * Images in `README` files must be included in the repository, not on an external site.
-* [Commits closing issues must be named `resolved`, `fixes`, or `resolves`, followed by the issue number](http://help.github.com/articles/closing-issues-using-keywords).
-* Small unused scripts must be added to the [Fun repository](http://github.com/MysteryPancake/Fun).
+* [Commits closing issues must be named `resolved`, `fixes`, or `resolves`, followed by the issue number](https://help.github.com/articles/closing-issues-using-keywords).
+* Small unused scripts must be added to the [Fun repository](https://github.com/MysteryPancake/Fun).
 
 ### Garry's Mod
 * Repositories intended for external use must be named `GMod-<Addon-Name>`.
@@ -43,16 +43,16 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `return` early from functions containing lots of code.
 * Unused variables must be set as `_`, or removed.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
-* [Multiplication must be used, not division](http://stackoverflow.com/questions/226465).
+* [Multiplication must be used, not division](https://stackoverflow.com/questions/226465).
 * Validate, sanitize and escape user data.
 * Variable names must be in `camelCase`.
-* [`General` must be used, not `generic`](http://ell.stackexchange.com/questions/16224).
+* [`General` must be used, not `generic`](https://ell.stackexchange.com/questions/16224).
 * No unnecessary variables in loops.
 * Strings must use `"`, not `'`.
 * Errors must be handled safely.
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
-* [`;` mustn't be used](http://stackoverflow.com/questions/16862337).
+* [`;` mustn't be used](https://stackoverflow.com/questions/16862337).
 
 ### Lua
 * `tbl[ math.random( #tbl ) ]` must be used to get a random value from a table.
@@ -70,14 +70,14 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Tables must be sequential when possible.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
-* [No unnecessary `local var = var`](http://lua-users.org/wiki/OptimisingUsingLocalVariables).
+* [No unnecessary `local var = var`](https://lua-users.org/wiki/OptimisingUsingLocalVariables).
 * No unnecessary metamethods.
-* [`module` mustn't be used](http://lua-users.org/wiki/LuaModuleFunctionCritiqued).
+* [`module` mustn't be used](https://lua-users.org/wiki/LuaModuleFunctionCritiqued).
 * `select` mustn't be used.
 
 ### Garry's Mod
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
-* [`IsValid( var )` must be used for validation, not `var:IsValid()`](http://github.com/MysteryPancake/Rule-Book/issues/4).
+* [`IsValid( var )` must be used for validation, not `var:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
 * `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * General player variables must be named `ply`, not `pl`.
@@ -103,7 +103,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `arc4random` or `arc4random_uniform` must be used to get random numbers.
 * `.init` mustn't be used when calling functions with specific arguments.
 * Variables must be `private` unless intended to be globally overridden.
-* [Overridable classes must have as many `final` properties as possible](http://stackoverflow.com/questions/35818703).
+* [Overridable classes must have as many `final` properties as possible](https://stackoverflow.com/questions/35818703).
 * `"String \(variable)"` must be used to join variables with strings.
 * Dictionaries must be `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * `.` must be used when calling functions with specific arguments.
@@ -127,19 +127,19 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Unused pointers must be set as `nil`.
 * `DispatchQueue` mustn't be used.
 * A newline mustn't be before `}`.
-* [`Int` must be used, not `UInt`](http://stackoverflow.com/questions/24180630).
+* [`Int` must be used, not `UInt`](https://stackoverflow.com/questions/24180630).
 * `&` must be used for pointers.
 
 ### HTML
-* [`<meta name="viewport" content="width=device-width, initial-scale=1">` must be used for mobile display](http://gethead.info).
-* [`<meta charset="utf-8">` must be used](http://gethead.info).
-* [`<title>` must be used](http://validator.w3.org).
+* [`<meta name="viewport" content="width=device-width, initial-scale=1">` must be used for mobile display](https://gethead.info).
+* [`<meta charset="utf-8">` must be used](https://gethead.info).
+* [`<title>` must be used](https://validator.w3.org).
 
 ### CSS
-* [Hex colors must be uppercase](http://stackoverflow.com/questions/32695983).
+* [Hex colors must be uppercase](https://stackoverflow.com/questions/32695983).
 * Alphabetize declarations.
 
 ### JavaScript
 * `haystack.indexOf(needle) !== -1;` must be used to check if a `string` contains another.
-* [`const` must be used unless `let` or `var` is essential](http://ponyfoo.com/articles/var-let-const).
-* [`XMLHttpRequest` must be asynchronous](http://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
+* [`const` must be used unless `let` or `var` is essential](https://ponyfoo.com/articles/var-let-const).
+* [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
