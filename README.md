@@ -131,10 +131,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `&` must be used for pointers.
 
 ### HTML
-* [`<meta charset="utf-8">` must be used](https://gethead.info).
-* [`<title>` must be used](https://validator.w3.org).
-* [`<meta name="viewport" content="width=device-width, initial-scale=1">` must be used for mobile display](https://gethead.info).
-HTML files must use the following template:
+[HTML files must use](https://validator.w3.org) [the following template](https://gethead.info):
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -146,10 +143,11 @@ HTML files must use the following template:
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<meta name="theme-color" content="white">
-    <script async src="script.js"></script>
+		<meta name="theme-color" content="#FFFFFF">
+		<script async src="script.js"></script>
 	</head>
 	<body>
+		<p>Content</p>
 	</body>
 </html>
 ```
