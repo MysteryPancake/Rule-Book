@@ -141,9 +141,8 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 		<meta name="description" content="Description">
 		<meta name="keywords" content="Key, Words">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<meta name="theme-color" content="#FFFFFF">
 		<script async src="script.js"></script>
 	</head>
 	<body>
