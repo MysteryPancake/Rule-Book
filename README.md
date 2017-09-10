@@ -131,7 +131,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `&` must be used for pointers.
 
 ### HTML
-[HTML files must use](https://validator.w3.org) [the following template](https://gethead.info):
+[The following template](https://validator.w3.org) [must be used](https://gethead.info):
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -139,7 +139,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 		<meta charset="utf-8">
 		<title>Title</title>
 		<meta name="description" content="Description">
-		<meta name="keywords" content="Key, words">
+		<meta name="keywords" content="Key, Words">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -153,6 +153,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 ```
 
 ### CSS
+* [`body, html { background-color: white; }` must be used](https://stackoverflow.com/questions/35205683).
 * [Hex colors must be uppercase](https://stackoverflow.com/questions/32695983).
 * Alphabetize declarations.
 
