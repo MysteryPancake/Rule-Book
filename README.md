@@ -43,6 +43,8 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `return` early from functions containing lots of code.
 * Unused variables must be set as `_`, or removed.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
+* `Client-side` must be used, not `clientside`.
+* `Server-side` must be used, not `serverside`.
 * [Multiplication must be used, not division](https://stackoverflow.com/questions/226465).
 * Validate, sanitize and escape user data.
 * Variable names must be in `camelCase`.
