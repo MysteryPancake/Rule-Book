@@ -140,8 +140,12 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 		<title>Title</title>
 		<meta name="description" content="Description">
 		<meta name="keywords" content="Key, Words">
+		<meta property="og:title" content="Title">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://url.com">
+		<meta property="og:image" content="https://url.com/image.png">
+		<meta property="og:description" content="Description">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script async src="script.js"></script>
 	</head>
