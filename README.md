@@ -146,6 +146,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://url.com">
 		<meta property="og:image" content="https://url.com/image.png">
+		<meta property="og:site_name" content="Title">
 		<meta property="og:description" content="Description">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
