@@ -21,7 +21,7 @@
 * Repository descriptions must be `<Addon Name> for Garry's Mod`.
 * Repositories must include an addon icon image and the associated Photoshop file.
 * Repositories must include a link to the addon.
-* Repository `README` files must use the following template:
+* Repository `README` files must use this template:
 
 ```
 # Garry's Mod <Addon Name>
@@ -91,6 +91,24 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Hooks must use anonymous functions.
 * `table.Random` mustn't be used.
 * `Material` must be cached.
+* `SENT`s must use this template:
+```
+AddCSLuaFile()
+
+ENT.Base = "base_entity"
+ENT.Type = "anim"
+
+ENT.Spawnable = true
+ENT.AdminOnly = true
+ENT.Editable = false
+
+ENT.PrintName = "Entity Name"
+ENT.Author = "MysteryPancake"
+ENT.Purpose = "Entity purpose"
+ENT.Instructions = "Entity instructions"
+ENT.Category = "Entity category"
+ENT.RenderGroup = RENDERGROUP_OPAQUE
+```
 
 ### XCode
 * The iOS requirement must be kept as low as possible.
@@ -133,7 +151,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `&` must be used for pointers.
 
 ### HTML
-[The following template](https://validator.w3.org) [must be used](https://gethead.info):
+[This template](https://validator.w3.org) [must be used](https://gethead.info):
 ```
 <!DOCTYPE html>
 <html lang="en">
