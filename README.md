@@ -14,6 +14,9 @@
 * [Commits closing issues must be named `resolved`, `fixes`, or `resolves`, followed by the issue number](https://help.github.com/articles/closing-issues-using-keywords).
 * Small unused scripts must be added to the [Fun repository](https://github.com/MysteryPancake/Fun).
 
+### GitHub Pages
+* Repositories must include the tags `github-pages`, `github-page`, `github-io`, `html`, `css`, `javascript`, `github-api`, and all website keywords.
+
 ### Garry's Mod
 * Repositories intended for external use must be named `GMod-<Addon-Name>`.
 * Repositories must include the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod`, and `gmod-lua`.
