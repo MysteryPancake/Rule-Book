@@ -187,5 +187,6 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 ### JavaScript
 * `haystack.indexOf(needle) !== -1;` must be used to check if a `string` contains another.
 * [`const` must be used unless `let` or `var` is essential](https://ponyfoo.com/articles/var-let-const).
+* [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
 * Always `"use strict"`.
