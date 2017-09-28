@@ -186,6 +186,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 
 ### JavaScript
 * `haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring.
+* `window.` must be before `window` methods and properties.
 * [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
