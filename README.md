@@ -178,6 +178,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 	</body>
 </html>
 ```
+* [Attributes must be quoted](https://stackoverflow.com/a/6495345).
 
 ### CSS
 * [`body, html { background-color: white; }` must be used](https://stackoverflow.com/questions/35205683).
@@ -188,6 +189,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring.
 * `window.` must be before `window` methods and properties.
 * [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
+* [Canvas contexts must have alpha disabled](https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
 * [`var` must be used](https://stackoverflow.com/questions/22603078).
