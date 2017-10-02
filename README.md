@@ -9,7 +9,7 @@
 * Repository descriptions must be as short as possible.
 * Repositories intended for personal use must include an `MIT License` with `MysteryPancake` as the legal name.
 * Repositories intended for external use mustn't include a license.
-* Variables to insert must be named `<VARIABLE>`, not `INSERT_VARIABLE_HERE`.
+* Variables to insert must be named `<VAR>`, not `INSERT_VAR_HERE`.
 * Images in `README` files must be included in the repository, not on an external site.
 * [Commits closing issues must be named `resolved`, `fixes`, or `resolves`, followed by the issue number](https://help.github.com/articles/closing-issues-using-keywords).
 * Small unused scripts must be added to the [Fun repository](https://github.com/MysteryPancake/Fun).
@@ -37,7 +37,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 ### General
 * Functions with applicable default arguments mustn't be called with the arguments.
 * General `string` variables must be named `str`, not `txt`, or `text`.
-* `-var` or `!var` must be used to invert variables, not `var * -1`.
+* `-foo` or `!foo` must be used to invert variables, not `foo * -1`.
 * Functions with `enum` arguments mustn't be called with raw values.
 * Literal collections must be on a single line unless wrapping.
 * `if` statements must be on a single line unless wrapping.
@@ -70,19 +70,19 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `math.random() >= 0.5` must be used to get a random boolean.
 * Unused keys or values in loops must be set as `_`.
 * General table variables must be named `tbl`.
-* `not var` must be used to invert booleans.
+* `not foo` must be used to invert booleans.
 * Tab indentation must be used, not spaces.
 * Tables must be sequential where possible.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
-* [No unnecessary `local var = var`](https://lua-users.org/wiki/OptimisingUsingLocalVariables).
+* [No unnecessary `local foo = foo`](https://lua-users.org/wiki/OptimisingUsingLocalVariables).
 * No unnecessary metamethods.
 * [`module` mustn't be used](https://lua-users.org/wiki/LuaModuleFunctionCritiqued).
 * `select` mustn't be used.
 
 ### Garry's Mod
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
-* [`IsValid( var )` must be used for validation, not `var:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
+* [`IsValid( foo )` must be used for validation, not `foo:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
 * `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * General player variables must be named `ply`, not `pl`.
@@ -127,10 +127,10 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `.init` mustn't be used when calling functions with specific arguments.
 * Variables must be `private` unless intended to be globally overridden.
 * [Overridable classes must have as many `final` properties as possible](https://stackoverflow.com/questions/35818703).
-* `"String \(variable)"` must be used to join variables with strings.
 * Dictionaries must be `x: [Any: Any] = [:]`, not `x = [Any: Any]()`.
 * `.` must be used when calling functions with specific arguments.
 * Extensions and enums must be used to reduce namespace clutter.
+* `"String \(foo)"` must be used to join variables with strings.
 * Variables must use `get`, `set`, and `didSet` where possible.
 * Variables mustn't be type declared unless they're numbers.
 * Classes must be `final` unless intended to be overridden.
@@ -187,7 +187,8 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 
 ### JavaScript
 * `haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring.
-* `var++` and `var--` must be used, not `var += 1` or `var -= 1`.
+* `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
+* `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * `window.` must be before `window` methods and properties.
 * [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
 * [Canvas contexts must have alpha disabled](https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html).
