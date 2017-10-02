@@ -187,6 +187,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 
 ### JavaScript
 * `haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring.
+* `var++` and `var--` must be used, not `var += 1` or `var -= 1`.
 * `window.` must be before `window` methods and properties.
 * [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
 * [Canvas contexts must have alpha disabled](https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html).
