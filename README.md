@@ -70,6 +70,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `math.random() >= 0.5` must be used to get a random boolean.
 * Unused keys or values in loops must be set as `_`.
 * General table variables must be named `tbl`.
+* `return end` must be followed by a newline.
 * `not foo` must be used to invert booleans.
 * Tab indentation must be used, not spaces.
 * Tables must be sequential where possible.
