@@ -99,7 +99,6 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 ```
 AddCSLuaFile()
 
-ENT.Base = "base_entity"
 ENT.Type = "anim"
 
 ENT.Spawnable = true
