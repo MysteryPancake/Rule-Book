@@ -44,6 +44,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `if bool then` must be used, not `if bool == true then`.
 * Variables mustn't share the names of existing variables.
 * `return` early from functions containing lots of code.
+* Functions mustn't have unintentional side effects.
 * Unused variables must be set as `_`, or removed.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
 * `Client-side` must be used, not `clientside`.
