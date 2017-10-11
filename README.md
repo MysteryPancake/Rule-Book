@@ -187,7 +187,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * Alphabetize declarations.
 
 ### JavaScript
-* `haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring.
+* [`haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring](https://jsperf.com/exec-vs-match-vs-test-vs-search).
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * `window.` must be before `window` methods and properties.
