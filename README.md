@@ -176,7 +176,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 		<script async src="script.js"></script>
 	</head>
 	<body>
-		<p>Content</p>
+		<span>Content</span>
 	</body>
 </html>
 ```
