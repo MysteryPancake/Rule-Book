@@ -180,6 +180,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 	</body>
 </html>
 ```
+* [`async` must be used unless `defer` is essential](https://stackoverflow.com/a/44443936).
 * [Attributes must be quoted](https://stackoverflow.com/a/6495345).
 
 ### CSS
