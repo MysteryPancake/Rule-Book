@@ -77,10 +77,10 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Tables must be sequential where possible.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
-* [No unnecessary `local foo = foo`](https://lua-users.org/wiki/OptimisingUsingLocalVariables).
 * No unnecessary metamethods.
 * [`module` mustn't be used](https://lua-users.org/wiki/LuaModuleFunctionCritiqued).
 * `select` mustn't be used.
+* No `local foo = foo`.
 
 ### Garry's Mod
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
