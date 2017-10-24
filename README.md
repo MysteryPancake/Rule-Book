@@ -75,6 +75,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `not foo` must be used to invert booleans.
 * Tab indentation must be used, not spaces.
 * Tables must be sequential where possible.
+* `return` must be used, not `return nil`.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
 * No unnecessary metamethods.
@@ -85,6 +86,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 ### Garry's Mod
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
 * [`IsValid( foo )` must be used for validation, not `foo:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
+* `foo:BoundingRadius()` must be used, not `foo:OBBMins():Distance( foo:OBBMaxs() )`.
 * `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * General player variables must be named `ply`, not `pl`.
