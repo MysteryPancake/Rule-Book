@@ -188,7 +188,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [Attributes must be quoted](https://stackoverflow.com/a/6495345).
 
 ### CSS
-* [`body, html { background-color: white; }` must be used](https://stackoverflow.com/questions/35205683).
+* [`html, body { background-color: white; }` must be used](https://stackoverflow.com/questions/35205683).
 * [Hex colors must be uppercase](https://stackoverflow.com/questions/32695983).
 * Alphabetize declarations.
 
