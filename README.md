@@ -100,6 +100,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `SysTime` must be used for benchmarking.
 * `RealTime` must be used for HUD events.
 * `Panel` must be used, not `DPanel`.
+* [`foo:PhysWake()` must be used](https://wiki.garrysmod.com/page/Entity/PhysWake).
 * `table.Random` mustn't be used.
 * `Material` must be cached.
 * `SENT`s must use this template:
