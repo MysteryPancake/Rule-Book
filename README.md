@@ -88,8 +88,8 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * [`IsValid( foo )` must be used for validation, not `foo:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
 * `foo:BoundingRadius()` must be used, not `foo:OBBMins():Distance( foo:OBBMaxs() )`.
 * `tobool( foo:GetInfo( "bar" ) )` must be used to check a ConVar as a bool.
-* `and`, `or`, and `not` must be used, not `&&`, `||`, or `!`.
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
+* [`or`, `and`, `not`, `~=`, `--[[ ]]` and `--` must be used](https://wiki.garrysmod.com/page/Specific_Operators).
 * General player variables must be named `ply`, not `pl`.
 * Assume data sent to the server has malicious intent.
 * [`SOLID_OBB` must be used, not `SOLID_BBOX`](https://facepunch.com/showthread.php?t=1548067&p=52780912&viewfull=1#post52780912).
