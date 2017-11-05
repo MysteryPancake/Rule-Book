@@ -56,6 +56,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * No unnecessary variables in loops.
 * Strings must use `"`, not `'`.
 * Errors must be handled safely.
+* No triple newlines `\n\n\n`.
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
 * [`;` mustn't be used](https://stackoverflow.com/questions/16862337).
