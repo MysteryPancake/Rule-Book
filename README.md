@@ -86,10 +86,10 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 
 ### Garry's Mod
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
-* [`IsValid( foo )` must be used for validation, not `foo:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
 * `foo:BoundingRadius()` must be used, not `foo:OBBMins():Distance( foo:OBBMaxs() )`.
 * `tobool( foo:GetInfo( "bar" ) )` must be used to check a ConVar as a bool.
 * `foo:GetInfo( "bar" )` must be used, not `foo:GetInfoNum( "bar" )`.
+* [`IsValid( foo )` must be used for validation, not `foo:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * [`or`, `and`, `not`, `~=`, `--[[ ]]` and `--` must be used](https://wiki.garrysmod.com/page/Specific_Operators).
 * General player variables must be named `ply`, not `pl`.
