@@ -94,6 +94,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * [`or`, `and`, `not`, `~=`, `--[[ ]]` and `--` must be used](https://wiki.garrysmod.com/page/Specific_Operators).
 * General player variables must be named `ply`, not `pl`.
 * Assume data sent to the server has malicious intent.
+* [`self:GetOwner()` must be used, not `self.Owner`](https://github.com/Facepunch/garrysmod/pull/1417).
 * [`SOLID_OBB` must be used, not `SOLID_BBOX`](https://facepunch.com/showthread.php?t=1548067&p=52780912&viewfull=1#post52780912).
 * Hooks must be added in `lua/autorun` files.
 * `CurTime` must be used for in-game events.
