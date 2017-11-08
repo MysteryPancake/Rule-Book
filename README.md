@@ -198,6 +198,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 ### JavaScript
 * [`haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring](https://jsperf.com/exec-vs-match-vs-test-vs-search).
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
+* [Strings must be concatenated with `"foo" + bar`, not `"foo${bar}"`](https://stackoverflow.com/a/16124072).
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * `window.` must be before `window` methods and properties.
 * [Function arguments must have spacing `(like, this)`](https://github.com/airbnb/javascript).
