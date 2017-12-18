@@ -35,6 +35,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 
 ## Programming
 ### General
+* Powers of two must be used for addition, subtraction, division, and multiplication.
 * Functions with applicable default arguments mustn't be called with the arguments.
 * General `string` variables must be named `str`, not `txt`, or `text`.
 * `-foo` or `!foo` must be used to invert variables, not `foo * -1`.
