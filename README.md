@@ -203,6 +203,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * `window.` must be before `window` methods and properties.
 * [Function arguments must have spacing `(like, this)`](https://github.com/airbnb/javascript).
+* [`const` must be used for arrays and objects](https://mathiasbynens.be/notes/es6-const).
 * [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
 * [Canvas contexts must have alpha disabled](https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
