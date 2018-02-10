@@ -33,6 +33,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 
 ### GitHub Pages
 * Repositories must include the tags `github-pages`, `github-page`, `github-io`, `html`, `css`, `javascript`, `github-api`, `website`, `online`, and all website keywords.
+* Website links must have lowercase domains.
 * Repositories must include a website link.
 
 ## Programming
