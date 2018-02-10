@@ -1,6 +1,7 @@
 # MysteryPancake's Rule Book
 ## GitHub
 ### General
+* Repositories must have `README` files.
 * Editing code directly on this site mustn't occur (too often).
 * Repository names must have capitals at the start of each word.
 * Repository names must use `-` to separate words.
@@ -31,7 +32,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 ```
 
 ### GitHub Pages
-* Repositories must include the tags `github-pages`, `github-page`, `github-io`, `html`, `css`, `javascript`, `github-api`, and all website keywords.
+* Repositories must include the tags `github-pages`, `github-page`, `github-io`, `html`, `css`, `javascript`, `github-api`, `website`, `online`, and all website keywords.
 
 ## Programming
 ### General
