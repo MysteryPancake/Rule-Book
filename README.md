@@ -13,7 +13,7 @@
 * Variables to insert must be named `<VAR>`, not `INSERT_VAR_HERE`.
 * Images in `README` files must be included in the repository, not on an external site.
 * [Commits closing issues must be named `resolved`, `fixes`, or `resolves`, followed by the issue number](https://help.github.com/articles/closing-issues-using-keywords).
-* Small unused scripts must be added to the [Fun repository](https://github.com/MysteryPancake/Fun).
+* [Small unused scripts must be added to the Fun repository](https://github.com/MysteryPancake/Fun).
 
 ### Garry's Mod
 * Repositories intended for external use must be named `GMod-<Addon-Name>`.
