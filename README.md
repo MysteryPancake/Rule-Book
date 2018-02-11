@@ -210,6 +210,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [Canvas contexts must have alpha disabled](https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html).
 * [`&&`, `!`, and `||` must be used carefully](https://github.com/airbnb/javascript/pull/590).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
+* [Arrays and objects must be `const`](https://mathiasbynens.be/notes/es6-const).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
 * [`var` must be used](https://stackoverflow.com/questions/22603078).
 * [This must be used to remove an element from an array](https://stackoverflow.com/a/5767357):
