@@ -209,6 +209,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`const` must be used for arrays and objects](https://mathiasbynens.be/notes/es6-const).
 * [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
 * [Canvas contexts must have alpha disabled](https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html).
+* [`&&`, `!`, and `||` must be used carefully](https://github.com/airbnb/javascript/pull/590).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
 * [`var` must be used](https://stackoverflow.com/questions/22603078).
