@@ -221,7 +221,7 @@ if (index !== -1) {
 
 ### GitHub Pages
 * [Strings must be concatenated with `"foo" + bar`, not `"foo${bar}"`](https://stackoverflow.com/a/16124072).
-* [`var` must be used, not `const` or `let`](https://stackoverflow.com/questions/22603078).
+* [`var` must be used, not `const` or `let`](https://stackoverflow.com/a/46106741).
 * [The code must run with EMACScript 3](https://www.w3schools.com/js/js_versions.asp).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
 * `` ` `` must not be used.
