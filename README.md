@@ -94,6 +94,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `tobool( foo:GetInfo( "bar" ) )` must be used to check a ConVar as a bool.
 * `foo:GetInfo( "bar" )` must be used, not `foo:GetInfoNum( "bar" )`.
 * [`IsValid( foo )` must be used for validation, not `foo:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
+* [`player.GetHumans()` must be used, not `player.GetAll()`](https://wiki.garrysmod.com/page/player/GetHumans).
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * [`or`, `and`, `not`, `~=`, `--[[ ]]` and `--` must be used](https://wiki.garrysmod.com/page/Specific_Operators).
 * General player variables must be named `ply`, not `pl`.
