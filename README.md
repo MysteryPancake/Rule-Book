@@ -9,7 +9,7 @@
 * Repository descriptions mustn't include a full stop.
 * Repository descriptions must be as short as possible.
 * Repositories intended for personal use must include an `MIT License` with `MysteryPancake` as the legal name.
-* Repositories intended for external use mustn't include a license.
+* Repositories intended for external use must include an `Unlicense`.
 * Variables to insert must be named `<VAR>`, not `INSERT_VAR_HERE`.
 * Images in `README` files must be included in the repository, not on an external site.
 * [Commits closing issues must be named `resolved`, `fixes`, or `resolves`, followed by the issue number](https://help.github.com/articles/closing-issues-using-keywords).
