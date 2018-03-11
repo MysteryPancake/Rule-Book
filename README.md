@@ -152,7 +152,6 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `struct` must be used, not `class`, where possible.
 * Variables mustn't be above the level of `internal`.
 * Arrays must be `x: [Any] = []`, not `x = [Any]()`.
-* `SKShapeNode` mustn't be used as it leaks memory.
 * `Array` or `Dictionary` must be used, not `Set`.
 * Double space indentation must be used, not tabs.
 * `let` must be used unless `var` is essential.
@@ -164,6 +163,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * Unused pointers must be set as `nil`.
 * `DispatchQueue` mustn't be used.
 * A newline mustn't be before `}`.
+* [`SKShapeNode` mustn't be used](http://sartak.org/2014/03/skshapenode-you-are-dead-to-me.html).
 * [`Int` must be used, not `UInt`](https://stackoverflow.com/questions/24180630).
 * `&` must be used for pointers.
 
