@@ -192,6 +192,8 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 	</body>
 </html>
 ```
+* [`<script>` must be used, not `<script type="text/javascript">`](https://stackoverflow.com/a/4243934).
+* [`<style>` must be used, not `<style type="text/css">`](https://forum.webflow.com/t/style-vs-style-type-text-css/10685/2).
 * [`async` must be used unless `defer` is essential](https://stackoverflow.com/a/44443936).
 * [Attributes must be quoted](https://stackoverflow.com/a/6495345).
 * Alphabetize keywords.
