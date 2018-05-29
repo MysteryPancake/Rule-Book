@@ -201,6 +201,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 ### CSS
 * [`html, body { background-color: white; }` must be used](https://stackoverflow.com/questions/35205683).
 * [Hex colors must be uppercase](https://stackoverflow.com/questions/32695983).
+* [Use `outline: none` sparingly](http://www.outlinenone.com).
 * Alphabetize declarations.
 
 ### JavaScript
