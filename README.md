@@ -209,6 +209,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * `window.` must be before `window` methods and properties.
+* `style.display = none` must be used, not `removeChild`.
 * [Function arguments must have spacing `(like, this)`](https://github.com/airbnb/javascript).
 * [`const` must be used for arrays and objects](https://mathiasbynens.be/notes/es6-const).
 * [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
