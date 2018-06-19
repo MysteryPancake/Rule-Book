@@ -208,6 +208,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring](https://jsperf.com/exec-vs-match-vs-test-vs-search).
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
+* `bool ? foo : bar` must be used, not `bool && foo || bar`.
 * `window.` must be before `window` methods and properties.
 * [`style.display = none` must be used, not `removeChild`](https://stackoverflow.com/a/2457637).
 * [`parseInt` and `parseFloat` must be used, not `Number`](https://stackoverflow.com/a/1133780).
