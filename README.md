@@ -209,11 +209,12 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * `window.` must be before `window` methods and properties.
-* `style.display = none` must be used, not `removeChild`.
+* [`style.display = none` must be used, not `removeChild`](https://stackoverflow.com/a/2457637).
 * [`parseInt` and `parseFloat` must be used, not `Number`](https://stackoverflow.com/a/1133780).
 * [Function arguments must have spacing `(like, this)`](https://github.com/airbnb/javascript).
 * [`const` must be used for arrays and objects](https://mathiasbynens.be/notes/es6-const).
 * [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
+* [`childNodes` must be used, not `children`](https://stackoverflow.com/a/7935719).
 * [Canvas contexts must have alpha disabled](https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html).
 * [`&&`, `!`, and `||` must be used carefully](https://github.com/airbnb/javascript/pull/590).
 * [`"property" in window` mustn't be used](http://2ality.com/2013/09/window.html).
