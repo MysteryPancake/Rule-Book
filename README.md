@@ -40,7 +40,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 ### General
 * Functions with applicable default arguments mustn't be called with the arguments.
 * General `string` variables must be named `str`, not `txt`, or `text`.
-* `-foo` or `!foo` must be used to invert variables, not `foo * -1`.
+* `-foo` and `!foo` must be used to invert variables, not `foo * -1`.
 * Functions with `enum` arguments mustn't be called with raw values.
 * Literal collections must be on a single line unless wrapping.
 * `if` statements must be on a single line unless wrapping.
@@ -74,7 +74,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `math.random( 1, n )` must be shortened to `math.random( n )`.
 * Strings in tables must be `tbl.string`, not `tbl[ "string" ]`.
 * `math.random() >= 0.5` must be used to get a random boolean.
-* Unused keys or values in loops must be set as `_`.
+* Unused keys and values in loops must be set as `_`.
 * General table variables must be named `tbl`.
 * `return end` must be followed by a newline.
 * `not foo` must be used to invert booleans.
@@ -137,7 +137,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * Repeating arrays must be `x: [Any] = Array(repeating: n, count: n)`, not `x = [Any](repeating: n, count: n)`.
 * `arc4random_uniform(max - min) + min` must be used to get random numbers in a range.
 * `UserDefaults.standard` must be used to save data such as scores and progress.
-* `arc4random` or `arc4random_uniform` must be used to get random numbers.
+* `arc4random` and `arc4random_uniform` must be used to get random numbers.
 * `.init` mustn't be used when calling functions with specific arguments.
 * Variables must be `private` unless intended to be globally overridden.
 * [Overridable classes must have as many `final` properties as possible](https://stackoverflow.com/questions/35818703).
@@ -152,7 +152,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `struct` must be used, not `class`, where possible.
 * Variables mustn't be above the level of `internal`.
 * Arrays must be `x: [Any] = []`, not `x = [Any]()`.
-* `Array` or `Dictionary` must be used, not `Set`.
+* `Array` and `Dictionary` must be used, not `Set`.
 * Double space indentation must be used, not tabs.
 * `let` must be used unless `var` is essential.
 * Ranges in `for` loops mustn't include spaces.
@@ -208,7 +208,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring](https://jsperf.com/exec-vs-match-vs-test-vs-search).
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
-* [`response` must be used, not `responseText` or `responseXML`](https://stackoverflow.com/a/46751655).
+* [`responseText` and `responseXML` must be used, not `response`](https://stackoverflow.com/a/46751655).
 * `bool ? foo : bar` must be used, not `bool && foo || bar`.
 * `window.` must be before `window` methods and properties.
 * Global variables must be declared at the top of the script.
