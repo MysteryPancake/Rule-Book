@@ -1,6 +1,6 @@
 # MysteryPancake's Rule Book
 ## GitHub
-### General
+### Generic
 * Repositories must have `README` files.
 * Editing code directly on this site mustn't occur (too often).
 * Repository names must have capitals at the start of each word.
@@ -37,9 +37,9 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Repositories must include a website link.
 
 ## Programming
-### General
+### Generic
 * Functions with applicable default arguments mustn't be called with the arguments.
-* General `string` variables must be named `str`, not `txt`, or `text`.
+* Generic `string` variables must be named `str`, not `txt`, or `text`.
 * `-foo` and `!foo` must be used to invert variables, not `foo * -1`.
 * Functions with `enum` arguments mustn't be called with raw values.
 * Literal collections must be on a single line unless wrapping.
@@ -56,7 +56,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Powers of two must be used where possible.
 * Validate, sanitize and escape user data.
 * Variable names must be in `camelCase`.
-* [`General` must be used, not `generic`](https://ell.stackexchange.com/questions/16224).
+* [`Generic` must be used, not `general`](https://ell.stackexchange.com/a/16225).
 * No unnecessary variables in loops.
 * Strings must use `"`, not `'`.
 * Errors must be handled safely.
@@ -75,7 +75,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Strings in tables must be `tbl.string`, not `tbl[ "string" ]`.
 * `math.random() >= 0.5` must be used to get a random boolean.
 * Unused keys and values in loops must be set as `_`.
-* General table variables must be named `tbl`.
+* Generic table variables must be named `tbl`.
 * `return end` must be followed by a newline.
 * `not foo` must be used to invert booleans.
 * Tab indentation must be used, not spaces.
@@ -97,7 +97,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * [`player.GetHumans()` must be used, not `player.GetAll()`](https://wiki.garrysmod.com/page/player/GetHumans).
 * `AddCSLuaFile` mustn't be used for files in `lua/autorun`.
 * [`or`, `and`, `not`, `~=`, `--[[ ]]` and `--` must be used](https://wiki.garrysmod.com/page/Specific_Operators).
-* General player variables must be named `ply`, not `pl`.
+* Generic player variables must be named `ply`, not `pl`.
 * Assume data sent to the server has malicious intent.
 * [`self:GetOwner()` must be used, not `self.Owner`](https://github.com/Facepunch/garrysmod/pull/1417).
 * [`SOLID_OBB` must be used, not `SOLID_BBOX`](https://facepunch.com/showthread.php?t=1548067&p=52780912&viewfull=1#post52780912).
@@ -148,7 +148,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * Variables must use `get`, `set`, and `didSet` where possible.
 * Variables mustn't be type declared unless they're numbers.
 * Classes must be `final` unless intended to be overridden.
-* General `SKAction.wait` variables must be named `delay`.
+* Generic `SKAction.wait` variables must be named `delay`.
 * `struct` must be used, not `class`, where possible.
 * Variables mustn't be above the level of `internal`.
 * Arrays must be `x: [Any] = []`, not `x = [Any]()`.
