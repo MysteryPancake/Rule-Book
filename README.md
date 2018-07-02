@@ -224,6 +224,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`"property" in window` mustn't be used](http://2ality.com/2013/09/window.html).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
 * [Arrays and objects must be `const`](https://mathiasbynens.be/notes/es6-const).
+* [`for` must be used, not `forEach`](https://coderwall.com/p/kvzbpa/don-t-use-array-foreach-use-for-instead).
 * [`\"` must be used, not `'`](https://stackoverflow.com/a/2004178).
 * [This must be used to remove an element from an array](https://stackoverflow.com/a/5767357):
 ```
