@@ -54,13 +54,13 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `Server-side` must be used, not `serverside`.
 * [Multiplication must be used, not division](https://stackoverflow.com/questions/226465).
 * Powers of two must be used where possible.
+* Triple newlines `\n\n\n` mustn't be used.
 * Validate, sanitize and escape user data.
 * Variable names must be in `camelCase`.
 * [`Generic` must be used, not `general`](https://ell.stackexchange.com/a/16225).
 * No unnecessary variables in loops.
 * Strings must use `"`, not `'`.
 * Errors must be handled safely.
-* No triple newlines `\n\n\n`.
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
 * [`;` mustn't be used](https://stackoverflow.com/questions/16862337).
@@ -83,15 +83,16 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `return` must be used, not `return nil`.
 * Spaces must be on both sides of `..`.
 * Spacing must be between everything.
+* `local foo = foo` mustn't be used.
 * No unnecessary metamethods.
 * [`module` mustn't be used](https://lua-users.org/wiki/LuaModuleFunctionCritiqued).
 * `select` mustn't be used.
-* No `local foo = foo`.
 
 ### Garry's Mod
 * `player_manager.AddValidModel( "Model Name", "models/player/model.mdl" )` must be used to add playermodels.
 * `foo:BoundingRadius()` must be used, not `foo:OBBMins():Distance( foo:OBBMaxs() )`.
 * `tobool( foo:GetInfo( "bar" ) )` must be used to check a ConVar as a bool.
+* In `PlayerSay` and `OnPlayerChat`, `text` must be used, not `txt` or `str`.
 * `foo:GetInfo( "bar" )` must be used, not `foo:GetInfoNum( "bar" )`.
 * [`IsValid( foo )` must be used for validation, not `foo:IsValid()`](https://github.com/MysteryPancake/Rule-Book/issues/4).
 * [`player.GetHumans()` must be used, not `player.GetAll()`](https://wiki.garrysmod.com/page/player/GetHumans).
@@ -240,4 +241,4 @@ if (index !== -1) {
 * [`var` must be used, not `const` or `let`](https://stackoverflow.com/a/46106741).
 * [The code must run with EMACScript 3](https://www.w3schools.com/js/js_versions.asp).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
-* `` ` `` must not be used.
+* `` ` `` mustn't be used.
