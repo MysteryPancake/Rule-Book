@@ -3,9 +3,9 @@
 ### Generic
 * Repositories must have `README` files.
 * Editing code directly on this site mustn't occur (too often).
-* Repository names must have capitals at the start of each word.
-* Repository names must use `-` to separate words.
+* Repository names must be capitalized.
 * Repository names must be as short as possible.
+* Repository names must use `-` to separate words.
 * Repository descriptions mustn't include a full stop.
 * Repository descriptions must be as short as possible.
 * Repositories intended for personal use must include an `MIT License` with `MysteryPancake` as the legal name.
