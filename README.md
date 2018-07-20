@@ -238,6 +238,7 @@ if (index !== -1) {
 ```
 
 ### GitHub Pages
+* `window.alert` must be used for important errors, not `console.warn` or `console.log`.
 * [Strings must be concatenated with `"foo" + bar`, not `"foo${bar}"`](https://stackoverflow.com/a/16124072).
 * [`var` must be used, not `const` or `let`](https://stackoverflow.com/a/46106741).
 * [The code must run with EMACScript 3](https://www.w3schools.com/js/js_versions.asp).
