@@ -211,6 +211,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * [`responseText` and `responseXML` must be used, not `response`](https://stackoverflow.com/a/46751655).
 * [`console.error` must be used to log errors, not `console.log`](https://stackoverflow.com/a/25532848).
+* [`string.charAt` must be used to get a character in a string](https://stackoverflow.com/a/3427148).
 * `bool ? foo : bar` must be used, not `bool && foo || bar`.
 * `window.` must be before `window` methods and properties.
 * Global variables must be declared at the top of the script.
