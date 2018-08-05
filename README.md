@@ -216,6 +216,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `bool ? foo : bar` must be used, not `bool && foo || bar`.
 * `window.` must be before `window` methods and properties.
 * Global variables must be declared at the top of the script.
+* `innerHTML` must be used, not `document.createTextNode`.
 * [`style.display = none` must be used, not `removeChild`](https://stackoverflow.com/a/2457637).
 * [`parseInt` and `parseFloat` must be used, not `Number`](https://stackoverflow.com/a/1133780).
 * [Function arguments must have spacing `(like, this)`](https://github.com/airbnb/javascript).
