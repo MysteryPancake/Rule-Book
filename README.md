@@ -231,6 +231,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`"property" in window` mustn't be used](http://2ality.com/2013/09/window.html).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
 * [Arrays and objects must be `const`](https://mathiasbynens.be/notes/es6-const).
+* `Object.keys()` must not be used.
 * [`for` must be used, not `forEach`](https://coderwall.com/p/kvzbpa/don-t-use-array-foreach-use-for-instead).
 * [`\"` must be used, not `'`](https://stackoverflow.com/a/2004178).
 * [This must be used to remove an element from an array](https://stackoverflow.com/a/5767357):
@@ -245,6 +246,6 @@ if (index !== -1) {
 * `window.alert` must be used for important errors, not `console.warn` or `console.log`.
 * [Strings must be concatenated with `"foo" + bar`, not `"foo${bar}"`](https://stackoverflow.com/a/16124072).
 * [`var` must be used, not `const` or `let`](https://stackoverflow.com/a/46106741).
-* [The code must run with EMACScript 3](https://www.w3schools.com/js/js_versions.asp).
+* [The code must run with EMACScript 5](https://www.w3schools.com/js/js_versions.asp).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
 * `` ` `` mustn't be used.
