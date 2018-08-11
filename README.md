@@ -224,6 +224,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`parentNode` must be used, not `parentElement`](https://stackoverflow.com/a/8685780).
 * [`textContent` must be used, not `innerText`](https://stackoverflow.com/a/35213204).
 * [`const` must be used for arrays and objects](https://mathiasbynens.be/notes/es6-const).
+* `for (let key in array) {` mustn't be used.
 * [Objects must have spacing `{ like: this }`](https://github.com/airbnb/javascript).
 * [`childNodes` must be used, not `children`](https://stackoverflow.com/a/7935719).
 * [Canvas contexts must have alpha disabled](https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html).
@@ -231,8 +232,8 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`"property" in window` mustn't be used](http://2ality.com/2013/09/window.html).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
 * [Arrays and objects must be `const`](https://mathiasbynens.be/notes/es6-const).
-* `Object.keys()` must not be used.
 * [`for` must be used, not `forEach`](https://coderwall.com/p/kvzbpa/don-t-use-array-foreach-use-for-instead).
+* `Object.keys()` mustn't be used.
 * [`\"` must be used, not `'`](https://stackoverflow.com/a/2004178).
 * [This must be used to remove an element from an array](https://stackoverflow.com/a/5767357):
 ```
