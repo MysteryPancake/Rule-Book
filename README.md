@@ -59,6 +59,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Variable names must be in `camelCase`.
 * [`Generic` must be used, not `general`](https://ell.stackexchange.com/a/16225).
 * No unnecessary variables in loops.
+* `Setup` must be used, not `init`.
 * Strings must use `"`, not `'`.
 * Errors must be handled safely.
 * No unnecessary `(` or `)`.
