@@ -232,6 +232,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`&&`, `!`, and `||` must be used carefully](https://github.com/airbnb/javascript/pull/590).
 * [`"property" in window` mustn't be used](http://2ality.com/2013/09/window.html).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
+* [`initial` must be used, not `origin`](https://www.w3schools.com/jsref/prop_loc_origin.asp).
 * [Arrays and objects must be `const`](https://mathiasbynens.be/notes/es6-const).
 * [`for` must be used, not `forEach`](https://coderwall.com/p/kvzbpa/don-t-use-array-foreach-use-for-instead).
 * `Object.keys()` mustn't be used.
