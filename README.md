@@ -208,6 +208,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * Alphabetize declarations.
 
 ### JavaScript
+* [`encodeURIComponent` and `decodeURIComponent` must be used, not `encodeURI` or `decodeURI`](https://stackoverflow.com/a/747700).
 * [`haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring](https://jsperf.com/exec-vs-match-vs-test-vs-search).
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
 * [`if (array.length) {` must be used, not `if (array.length > 0) {`](https://stackoverflow.com/a/32911903).
