@@ -250,6 +250,7 @@ if (index !== -1) {
 * `window.alert` must be used for important errors, not `console.warn` or `console.log`.
 * [Strings must be concatenated with `"foo" + bar`, not `"foo${bar}"`](https://stackoverflow.com/a/16124072).
 * [`var` must be used, not `const` or `let`](https://stackoverflow.com/a/46106741).
+* [`wheel` must be used, not `mousewheel`](https://developer.mozilla.org/en-US/docs/Web/Events/mousewheel).
 * [The code must run with EMACScript 5](https://www.w3schools.com/js/js_versions.asp).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
 * `` ` `` mustn't be used.
