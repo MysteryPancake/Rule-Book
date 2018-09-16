@@ -221,15 +221,15 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Title</title>
-		<meta name="description" content="Description">
-		<meta name="keywords" content="Key, Words">
-		<meta property="og:title" content="Title">
+		<title><Repository Name></title>
+		<meta name="description" content="<Repository Description>">
+		<meta name="keywords" content="<Repository, Key, Words>">
+		<meta property="og:title" content="<Repository Title>">
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://url.com">
-		<meta property="og:image" content="https://url.com/image.png">
-		<meta property="og:site_name" content="Title">
-		<meta property="og:description" content="Description">
+		<meta property="og:url" content="<WEBSITE_URL>">
+		<meta property="og:image" content="<ICON_PATH>">
+		<meta property="og:site_name" content="<Repository Title>">
+		<meta property="og:description" content="<Repository Description>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script async src="script.js"></script>
