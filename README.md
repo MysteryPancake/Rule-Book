@@ -20,15 +20,58 @@
 * Repositories must include the tags `garrys-mod`, `garrysmod`, `garry-mod`, `garrysmod-addon`, `lua`, `addon`, `glua`, `gmod`, and `gmod-lua`.
 * Repositories for Scripted Tools must include the tag `garrysmod-tool`.
 * Repository descriptions must be `<Addon Name> for Garry's Mod`.
-* Repositories must include an addon icon image and the associated Photoshop file.
+* Repositories must include an addon icon and the associated Photoshop file.
 * Repositories must include a link to the addon.
 * Repository `README` files must use this template:
-
 ```
 # Garry's Mod <Addon Name>
 All the code for my <Addon Name> addon can be found here, and the actual addon is available [here](<WORKSHOP_LINK>).
 
 ![Icon](<ICON_PATH>?raw=true)
+```
+
+### Discord
+* Repositories must include the tags `discord`, `discord-bot`, `discord-js`, `discord-api`, `discordjs`, `discordjs-bot`, `javascript`, `discordjsbot`, `discordapp`, `discordbot`, `nodejs`, `node-js`, and `bot`.
+* Repositories must include a `Procfile` containing `worker: npm start`.
+* Repository `README` files must include setup instructions.
+* Repository `README` files must include a command list.
+* Repositories must include a bot icon.
+* Repository `package.json` files must use this template:
+```
+{
+  "name": "<Repository-Name>",
+  "version": "1.0.0",
+  "description": "<Repository Description>",
+  "main": "<SCRIPT_PATH>",
+  "engines": {
+    "node": "10.x",
+    "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node <SCRIPT_PATH>"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord-js",
+    "discord-api",
+    "discordjs",
+    "discordjs-bot",
+    "javascript",
+    "discordjsbot",
+    "discordapp",
+    "discordbot",
+    "nodejs",
+    "node-js",
+    "bot",
+  ],
+  "author": "MysteryPancake",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "<VERSION>"
+  }
+}
 ```
 
 ### GitHub Pages
