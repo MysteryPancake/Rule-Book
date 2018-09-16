@@ -31,7 +31,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 ```
 
 ### Discord
-* Repositories must include the tags `discord`, `discord-bot`, `discord-js`, `discord-api`, `discordjs`, `discordjs-bot`, `javascript`, `discordjsbot`, `discordapp`, `discordbot`, `nodejs`, `node-js`, and `bot`.
+* Repositories must include the tags `discord`, `discord-bot`, `discord-js`, `discord-api`, `discordjs`, `discordjs-bot`, `javascript`, `discordjsbot`, `discordapp`, `discordbot`, `nodejs-bot`, `nodejs`, `node-js`, and `bot`.
 * Repositories must include a `Procfile` containing `worker: npm start`.
 * Repository `README` files must include setup instructions.
 * Repository `README` files must include a command list.
@@ -62,6 +62,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
     "discordjsbot",
     "discordapp",
     "discordbot",
+    "nodejs-bot",
     "nodejs",
     "node-js",
     "bot",
