@@ -255,7 +255,9 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 ### JavaScript
 * [`encodeURIComponent` and `decodeURIComponent` must be used, not `encodeURI` or `decodeURI`](https://stackoverflow.com/a/747700).
 * [`haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring](https://jsperf.com/exec-vs-match-vs-test-vs-search).
+* Object indexing must be used to match a string: `{ "check": true, "matches": true }[str]`
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
+* Javascript names mustn't be used in objects: `{ "false": true }[false] -> true`
 * [`if (array.length) {` must be used, not `if (array.length > 0) {`](https://stackoverflow.com/a/32911903).
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * [`responseText` and `responseXML` must be used, not `response`](https://stackoverflow.com/a/46751655).
