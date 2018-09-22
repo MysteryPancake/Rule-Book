@@ -1,4 +1,4 @@
-# MysteryPancake's Rule Book
+# [MysteryPancake's Rule Book](https://mysterypancake.github.io/Rule-Book)
 ## GitHub
 ### Generic
 * Repositories must have `README` files.
