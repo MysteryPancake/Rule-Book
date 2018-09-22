@@ -287,6 +287,8 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`for` must be used, not `forEach`](https://coderwall.com/p/kvzbpa/don-t-use-array-foreach-use-for-instead).
 * `Object.keys()` mustn't be used.
 * [`\"` must be used, not `'`](https://stackoverflow.com/a/2004178).
+* `` ` `` mustn't be used.
+* [`;` must be used](https://stackoverflow.com/a/444082).
 * [This must be used to remove an element from an array](https://stackoverflow.com/a/5767357):
 ```
 var index = array.indexOf(foo);
@@ -302,4 +304,3 @@ if (index !== -1) {
 * [`wheel` must be used, not `mousewheel`](https://developer.mozilla.org/en-US/docs/Web/Events/mousewheel).
 * [The code must run with EMACScript 5](https://www.w3schools.com/js/js_versions.asp).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
-* `` ` `` mustn't be used.
