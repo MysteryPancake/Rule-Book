@@ -281,6 +281,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [Canvas contexts must have alpha disabled](https://webglfundamentals.org/webgl/lessons/webgl-and-alpha.html).
 * [`&&`, `!`, and `||` must be used carefully](https://github.com/airbnb/javascript/pull/590).
 * [`"property" in window` mustn't be used](http://2ality.com/2013/09/window.html).
+* [Constructors names must be capitalized](https://stackoverflow.com/a/1564489).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
 * [`initial` must be used, not `origin`](https://www.w3schools.com/jsref/prop_loc_origin.asp).
 * [Arrays and objects must be `const`](https://mathiasbynens.be/notes/es6-const).
