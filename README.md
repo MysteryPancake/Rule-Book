@@ -93,10 +93,11 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Variables mustn't share the names of existing variables.
 * `return` early from functions containing lots of code.
 * Functions mustn't have unintentional side effects.
+* [`application/xml` must be used, not `text/xml`](https://stackoverflow.com/a/6141983).
 * Unused variables must be set as `_`, or removed.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
-* `Client-side` must be used, not `clientside`.
-* `Server-side` must be used, not `serverside`.
+* `Clientside` must be used, not `client-side`.
+* `Serverside` must be used, not `server-side`.
 * [Multiplication must be used, not division](https://stackoverflow.com/questions/226465).
 * Powers of two must be used where possible.
 * Triple newlines `\n\n\n` mustn't be used.
