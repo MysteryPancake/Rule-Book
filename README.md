@@ -273,6 +273,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`style.display = none` must be used, not `removeChild`](https://stackoverflow.com/a/2457637).
 * [`parseInt` and `parseFloat` must be used, not `Number`](https://stackoverflow.com/a/1133780).
 * [Function arguments must have spacing `(like, this)`](https://github.com/airbnb/javascript).
+* [`.shift()` mustn't be used to get text before a string](https://stackoverflow.com/q/9133102).
 * [`parentNode` must be used, not `parentElement`](https://stackoverflow.com/a/8685780).
 * [`textContent` must be used, not `innerText`](https://stackoverflow.com/a/35213204).
 * [`const` must be used for arrays and objects](https://mathiasbynens.be/notes/es6-const).
