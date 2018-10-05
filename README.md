@@ -257,6 +257,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`encodeURIComponent` and `decodeURIComponent` must be used, not `encodeURI` or `decodeURI`](https://stackoverflow.com/a/747700).
 * [`haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring](https://jsperf.com/exec-vs-match-vs-test-vs-search).
 * Object indexing must be used to match a string: `{ "check": true, "matches": true }[str]`
+* [`.split("str")[0]` must be used to get text before a string, not `.split("str").shift()`](https://stackoverflow.com/a/33437745).
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
 * Javascript names mustn't be used in objects: `{ "false": true }[false] -> true`
 * [`if (array.length) {` must be used, not `if (array.length > 0) {`](https://stackoverflow.com/a/32911903).
@@ -273,7 +274,6 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`style.display = none` must be used, not `removeChild`](https://stackoverflow.com/a/2457637).
 * [`parseInt` and `parseFloat` must be used, not `Number`](https://stackoverflow.com/a/1133780).
 * [Function arguments must have spacing `(like, this)`](https://github.com/airbnb/javascript).
-* [`.shift()` mustn't be used to get text before a string](https://stackoverflow.com/q/9133102).
 * [`parentNode` must be used, not `parentElement`](https://stackoverflow.com/a/8685780).
 * [`textContent` must be used, not `innerText`](https://stackoverflow.com/a/35213204).
 * [`const` must be used for arrays and objects](https://mathiasbynens.be/notes/es6-const).
