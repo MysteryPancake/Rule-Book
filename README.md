@@ -291,6 +291,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [Constructors must be capitalized](https://stackoverflow.com/a/1564489).
 * `Object.keys()` mustn't be used.
 * [`\"` must be used, not `'`](https://stackoverflow.com/a/2004178).
+* [No use before define](https://eslint.org/docs/rules/no-use-before-define).
 * `` ` `` mustn't be used.
 * [`;` must be used](https://stackoverflow.com/a/444082).
 * [This must be used to remove an element from an array](https://stackoverflow.com/a/5767357):
