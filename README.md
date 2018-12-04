@@ -303,10 +303,14 @@ if (index !== -1) {
 ```
 
 ### Unity
-* [`localPosition`, `localRotation` and `localScale` must be used, not `position`, `rotation` or `lossyScale`](https://twitter.com/devangerist/status/1069501290026287104).
+* Class functions must be sorted by `Awake`, `Start`, `Update`, `FixedUpdate`, `OnCollisionEnter`, `OnCollisionStay`, `OnCollisionExit`, `OnTriggerEnter`, `OnTriggerStay`, `OnTriggerExit`, and `OnBecameInvisible`.
+* [`localPosition`, `localRotation`, and `localScale` must be used, not `position`, `rotation`, or `lossyScale`](https://twitter.com/devangerist/status/1069501290026287104).
+* For 2D games, `Vector2` must be used where possible, unless `Vector3` is essential.
 * Class variables must be sorted by `internal`, `public`, then `private`.
-* For 2D games, `Vector2` must be used where possible, not `Vector3`.
 * Variables not intended to be set in the editor must be `internal`.
+* `Time.Time > last` must only be used for delays.
+* `Time.deltaTime` must only be used for timers.
+* [`Awake` must be used, unless `Start` is essential](https://answers.unity.com/questions/382658/use-of-awake-vs-start.html).
 * [`StartCoroutine`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.StartCoroutine.html) must be used, not [`Invoke`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Invoke.html).
 * Variables must be `private` where possible.
 * Strings must be used, not enums.
