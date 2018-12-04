@@ -304,7 +304,7 @@ if (index !== -1) {
 
 ### Unity
 * Class functions must be sorted by `Awake`, `Start`, `Update`, `FixedUpdate`, `OnCollisionEnter`, `OnCollisionStay`, `OnCollisionExit`, `OnTriggerEnter`, `OnTriggerStay`, `OnTriggerExit`, and `OnBecameInvisible`.
-* [`rigid2D.simulated = false` must be used to disable a `Rigidbody2D`, not `rigid2D.Sleep()`, or `rigid2D.isKinematic = false`](https://docs.unity3d.com/ScriptReference/Rigidbody2D-simulated.html).
+* [`rigid2D.simulated = false` must be used to disable a `Rigidbody2D`, not `isKinematic = false`, or `Sleep()`](https://docs.unity3d.com/ScriptReference/Rigidbody2D-simulated.html).
 * [`localPosition`, `localRotation`, and `localScale` must be used, not `position`, `rotation`, or `lossyScale`](https://twitter.com/devangerist/status/1069501290026287104).
 * For 2D games, `Vector2` must be used where possible, unless `Vector3` is essential.
 * Class variables must be sorted by `internal`, `public`, then `private`.
