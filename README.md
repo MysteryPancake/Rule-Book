@@ -313,11 +313,11 @@ if (index !== -1) {
 * [`Time.deltaTime` must only be used for timers](https://answers.unity.com/questions/225213/c-countdown-timer.html).
 * [`Awake` must be used, unless `Start` is essential](https://answers.unity.com/questions/382658/use-of-awake-vs-start.html).
 * [`StartCoroutine`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.StartCoroutine.html) must be used, not [`Invoke`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Invoke.html).
+* [String switches must be used, not enum switches](https://stackoverflow.com/a/1947901).
 * [Animation layers must be used, not animators](https://docs.unity3d.com/Manual/AnimationLayers.html).
 * [`StartsWith` and `EndsWith` mustn't be used](https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity5.html).
 * [Variables must be `private` where possible](https://stackoverflow.com/a/7385005).
 * Animations mustn't affect enabled states.
-* Strings must be used, not enums.
 * [`GetComponent` must be cached](https://unity3d.com/learn/tutorials/topics/performance-optimization/optimizing-scripts-unity-games).
 * [Coroutines must be cached](https://twitter.com/bivolt_studio/status/1066695127995990016).
 
