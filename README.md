@@ -304,16 +304,19 @@ if (index !== -1) {
 
 ### Unity
 * Class functions must be sorted by `Awake`, `Start`, `Update`, `FixedUpdate`, `OnCollisionEnter`, `OnCollisionStay`, `OnCollisionExit`, `OnTriggerEnter`, `OnTriggerStay`, `OnTriggerExit`, and `OnBecameInvisible`.
+* [`rigid2D.simulated = false` must be used to disable a `Rigidbody2D`, not `rigid2D.Sleep()`, or `rigid2D.isKinematic = false`](https://docs.unity3d.com/ScriptReference/Rigidbody2D-simulated.html).
 * [`localPosition`, `localRotation`, and `localScale` must be used, not `position`, `rotation`, or `lossyScale`](https://twitter.com/devangerist/status/1069501290026287104).
 * For 2D games, `Vector2` must be used where possible, unless `Vector3` is essential.
 * Class variables must be sorted by `internal`, `public`, then `private`.
 * Variables not intended to be set in the editor must be `internal`.
-* `Time.Time > last` must only be used for delays.
-* `Time.deltaTime` must only be used for timers.
+* [`Time.time > last` must only be used for delays](https://answers.unity.com/questions/890258/have-a-delay-after-each-jump-so-user-cant-spam-jum.html).
+* [`Time.deltaTime` must only be used for timers](https://answers.unity.com/questions/225213/c-countdown-timer.html).
 * [`Awake` must be used, unless `Start` is essential](https://answers.unity.com/questions/382658/use-of-awake-vs-start.html).
 * [`StartCoroutine`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.StartCoroutine.html) must be used, not [`Invoke`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Invoke.html).
-* Variables must be `private` where possible.
+* [`StartsWith` and `EndsWith` mustn't be used](https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity5.html).
+* [Variables must be `private` where possible](https://stackoverflow.com/a/7385005).
 * Strings must be used, not enums.
+* [`GetComponent` must be cached](https://unity3d.com/learn/tutorials/topics/performance-optimization/optimizing-scripts-unity-games).
 * [Coroutines must be cached](https://twitter.com/bivolt_studio/status/1066695127995990016).
 
 ### GitHub Pages
