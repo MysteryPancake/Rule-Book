@@ -302,6 +302,16 @@ if (index !== -1) {
 }
 ```
 
+### Unity
+* [`localPosition`, `localRotation` and `localScale` must be used, not `position`, `rotation` or `lossyScale`](https://twitter.com/devangerist/status/1069501290026287104).
+* Class variables must be sorted by `internal`, `public`, then `private`.
+* For 2D games, `Vector2` must be used where possible, not `Vector3`.
+* Variables not intended to be set in the editor must be `internal`.
+* [`StartCoroutine`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.StartCoroutine.html) must be used, not [`Invoke`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Invoke.html).
+* Variables must be `private` where possible.
+* Strings must be used, not enums.
+* [Coroutines must be cached](https://twitter.com/bivolt_studio/status/1066695127995990016).
+
 ### GitHub Pages
 * `window.alert` must be used for important errors, not `console.warn` or `console.log`.
 * [Strings must be concatenated with `"foo" + bar`, not `"foo${bar}"`](https://stackoverflow.com/a/16124072).
