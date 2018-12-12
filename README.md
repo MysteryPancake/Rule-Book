@@ -309,6 +309,7 @@ if (index !== -1) {
 * For 2D games, `Vector2` must be used where possible, unless `Vector3` is essential.
 * Class variables must be sorted by `internal`, `public`, then `private`.
 * Variables not intended to be set in the editor must be `internal`.
+* Class functions must be sorted by accessibility levels.
 * [`sqrMagnitude` must be used when comparing vectors](https://docs.unity3d.com/ScriptReference/Vector2-sqrMagnitude.html).
 * [`Time.time > last` must only be used for delays](https://answers.unity.com/questions/890258/have-a-delay-after-each-jump-so-user-cant-spam-jum.html).
 * [String switches must be used, not enum switches](https://stackoverflow.com/a/1947901).
