@@ -318,6 +318,7 @@ if (index !== -1) {
 * `int` must be used, unless `float` is essential.
 * [Animation layers must be used, not animators](https://docs.unity3d.com/Manual/AnimationLayers.html).
 * [`StartsWith` and `EndsWith` mustn't be used](https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity5.html).
+* [Variables must be as inaccessible as possible](https://stackoverflow.com/a/1295997).
 * [Variables must be `private` where possible](https://stackoverflow.com/a/7385005).
 * Animations mustn't affect enabled states.
 * [Floats must be followed by `f`](https://stackoverflow.com/a/11590321).
