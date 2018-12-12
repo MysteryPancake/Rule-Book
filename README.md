@@ -305,11 +305,10 @@ if (index !== -1) {
 ### Unity
 * Class functions must be sorted by `Awake`, `Start`, `Update`, `FixedUpdate`, `OnCollisionEnter`, `OnCollisionStay`, `OnCollisionExit`, `OnTriggerEnter`, `OnTriggerStay`, `OnTriggerExit`, and `OnBecameInvisible`.
 * [`rigid2D.simulated = false` must be used to disable a `Rigidbody2D`, not `isKinematic = true`, or `Sleep()`](https://docs.unity3d.com/ScriptReference/Rigidbody2D-simulated.html).
-* [`localPosition`, `localRotation`, and `localScale` must be used, not `position`, `rotation`, or `lossyScale`](https://twitter.com/devangerist/status/1069501290026287104).
+* [`localPosition`, `localRotation`, and `localScale` must be used, unless `position` or `rotation` are essential](https://twitter.com/devangerist/status/1069501290026287104).
 * For 2D games, `Vector2` must be used where possible, unless `Vector3` is essential.
 * Class variables must be sorted by `internal`, `public`, then `private`.
 * Variables not intended to be set in the editor must be `internal`.
-* `position` must only be used for checking world coordinates.
 * Class functions must be sorted by accessibility levels.
 * [`sqrMagnitude` must be used when comparing vectors](https://docs.unity3d.com/ScriptReference/Vector2-sqrMagnitude.html).
 * [`Time.time > last` must only be used for delays](https://answers.unity.com/questions/890258/have-a-delay-after-each-jump-so-user-cant-spam-jum.html).
