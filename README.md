@@ -322,6 +322,7 @@ if (index !== -1) {
 * [Variables must be as inaccessible as possible](https://stackoverflow.com/a/1295997).
 * [Variables must be `private` where possible](https://stackoverflow.com/a/7385005).
 * Animations mustn't affect enabled states.
+* [`for` must be used, not `foreach`](https://forum.unity.com/threads/is-foreach-still-bad-for-performance.434782/).
 * [Floats must be followed by `f`](https://stackoverflow.com/a/11590321).
 * [`GetComponent` must be cached](https://unity3d.com/learn/tutorials/topics/performance-optimization/optimizing-scripts-unity-games).
 * [Coroutines must be cached](https://twitter.com/bivolt_studio/status/1066695127995990016).
