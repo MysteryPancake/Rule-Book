@@ -84,6 +84,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 ## Programming
 ### Generic
 * Functions with applicable default arguments mustn't be called with the arguments.
+* `while (lines.length > 0)` must be used, not `while (lines.length)`.
 * Generic `string` variables must be named `str`, not `txt`, or `text`.
 * `-foo` and `!foo` must be used to invert variables, not `foo * -1`.
 * Functions with `enum` arguments mustn't be called with raw values.
