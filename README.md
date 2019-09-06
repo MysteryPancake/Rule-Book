@@ -242,6 +242,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 </html>
 ```
 * [CSS must be used for sizing iframes, not `<iframe width=<WIDTH> height=<HEIGHT>`](https://benmarshall.me/responsive-iframes).
+* [`-moz-user-select: none` must be used alongside `user-select: none`](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select).
 * [`<script>` must be used, not `<script type="text/javascript">`](https://stackoverflow.com/a/4243934).
 * [`<style>` must be used, not `<style type="text/css">`](https://forum.webflow.com/t/style-vs-style-type-text-css/10685/2).
 * [`async` must be used unless `defer` is essential](https://stackoverflow.com/a/44443936).
