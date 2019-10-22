@@ -249,6 +249,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * Alphabetize keywords.
 
 ### CSS
+* [`font-size: small` and `font-size: large` must be used, not `font-size: smaller` or `font-size:larger`](https://www.w3schools.com/cssref/pr_font_font-size.asp).
 * [`-moz-user-select: none` must be used alongside `user-select: none`](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select).
 * [`user-select: none` must be used with `pointer-events: none`](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events).
 * [`html, body { background-color: white; }` must be used](https://stackoverflow.com/questions/35205683).
