@@ -260,7 +260,6 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 ### JavaScript
 * [`encodeURIComponent` and `decodeURIComponent` must be used, not `encodeURI` or `decodeURI`](https://stackoverflow.com/a/747700).
 * [`haystack.indexOf(needle) !== -1;` must be used to check if a string contains a substring](https://jsperf.com/exec-vs-match-vs-test-vs-search).
-* Object indexing must be used to match a string: `{ "check": true, "matches": true }[str]`
 * [`.split("str")[0]` must be used to get text before a string, not `.split("str").shift()`](https://stackoverflow.com/a/33437745).
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
 * [`window.innerWidth` and `window.innerHeight` must be used to get the document size](https://www.w3schools.com/jsref/prop_win_innerheight.asp).
@@ -293,7 +292,6 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`keydown` must be used, not `keypress`](https://www.mutuallyhuman.com/blog/keydown-is-the-only-keyboard-event-we-need).
 * [`wheel` must be used, not `mousewheel`](https://developer.mozilla.org/en-US/docs/Web/Events/mousewheel).
 * [`initial` must be used, not `origin`](https://www.w3schools.com/jsref/prop_loc_origin.asp).
-* [Arrays and objects must be `const`](https://mathiasbynens.be/notes/es6-const).
 * [`for` must be used, not `forEach`](https://coderwall.com/p/kvzbpa/don-t-use-array-foreach-use-for-instead).
 * [Constructors must be capitalized](https://stackoverflow.com/a/1564489).
 * `Object.keys()` mustn't be used.
