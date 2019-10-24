@@ -291,6 +291,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`"property" in window` mustn't be used](http://2ality.com/2013/09/window.html).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
 * [`keydown` must be used, not `keypress`](https://www.mutuallyhuman.com/blog/keydown-is-the-only-keyboard-event-we-need).
+* [`wheel` must be used, not `mousewheel`](https://developer.mozilla.org/en-US/docs/Web/Events/mousewheel).
 * [`initial` must be used, not `origin`](https://www.w3schools.com/jsref/prop_loc_origin.asp).
 * [Arrays and objects must be `const`](https://mathiasbynens.be/notes/es6-const).
 * [`for` must be used, not `forEach`](https://coderwall.com/p/kvzbpa/don-t-use-array-foreach-use-for-instead).
@@ -337,7 +338,4 @@ if (index !== -1) {
 ### GitHub Pages
 * `window.alert` must be used for important errors, not `console.warn` or `console.log`.
 * [Strings must be concatenated with `"foo" + bar`, not `"foo${bar}"`](https://stackoverflow.com/a/16124072).
-* [`var` must be used, not `const` or `let`](https://stackoverflow.com/a/46106741).
-* [`wheel` must be used, not `mousewheel`](https://developer.mozilla.org/en-US/docs/Web/Events/mousewheel).
-* [The code must run with EMACScript 5](https://www.w3schools.com/js/js_versions.asp).
 * [Always `"use strict";`](https://stackoverflow.com/a/1335881).
