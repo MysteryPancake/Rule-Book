@@ -290,6 +290,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`.toString()` must be used, not `String`](https://stackoverflow.com/a/5765406).
 * [`"property" in window` mustn't be used](http://2ality.com/2013/09/window.html).
 * [`XMLHttpRequest` must be asynchronous](https://blogs.msdn.microsoft.com/wer/2011/08/03/why-you-should-use-xmlhttprequest-asynchronously).
+* [`keydown` must be used, not `keypress`](https://www.mutuallyhuman.com/blog/keydown-is-the-only-keyboard-event-we-need).
 * [`initial` must be used, not `origin`](https://www.w3schools.com/jsref/prop_loc_origin.asp).
 * [Arrays and objects must be `const`](https://mathiasbynens.be/notes/es6-const).
 * [`for` must be used, not `forEach`](https://coderwall.com/p/kvzbpa/don-t-use-array-foreach-use-for-instead).
