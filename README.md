@@ -271,10 +271,10 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`str.replace(/\.[^/.]+$/, "")` must be used to get a file name](https://stackoverflow.com/a/4250408).
 * [`str.split(".").pop()` must be used to get a file extension](https://stackoverflow.com/a/190878).
 * [`string.charAt` must be used to get a character in a string](https://stackoverflow.com/a/3427148).
+* [`textContent` must be used, unless `innerHTML` is essential.](https://stackoverflow.com/a/21311670).
 * `bool ? foo : bar` must be used, not `bool && foo || bar`.
 * `window.` must be before `window` methods and properties.
 * Global variables must be declared at the top of the script.
-* `innerHTML` must be used, not `document.createTextNode`.
 * [`style.display = none` must be used, not `removeChild`](https://stackoverflow.com/a/2457637).
 * [`parseInt` and `parseFloat` must be used, not `Number`](https://stackoverflow.com/a/1133780).
 * [Function arguments must have spacing `(like, this)`](https://github.com/airbnb/javascript).
