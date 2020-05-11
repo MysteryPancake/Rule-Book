@@ -92,6 +92,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `if` statements must be on a single line unless wrapping.
 * `if bool then` must be used, not `if bool == true then`.
 * Variables mustn't share the names of existing variables.
+* [The last condition of `switch` statements must `break`](https://stackoverflow.com/a/26139061).
 * `return` early from functions containing lots of code.
 * Functions mustn't have unintentional side effects.
 * [`application/xml` must be used, not `text/xml`](https://stackoverflow.com/a/6141983).
