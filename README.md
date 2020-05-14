@@ -252,7 +252,6 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 ### CSS
 * [`font-size: small` and `font-size: large` must be used, not `font-size: smaller` or `font-size:larger`](https://www.w3schools.com/cssref/pr_font_font-size.asp).
 * [`-moz-user-select: none` must be used alongside `user-select: none`](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select).
-* [`user-select: none` must be used with `pointer-events: none`](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events).
 * [Box shadows must be used for inset borders](https://stackoverflow.com/a/8452798).
 * [Hex colors must be uppercase](https://stackoverflow.com/questions/32695983).
 * [Use `outline: none` sparingly](http://www.outlinenone.com).
