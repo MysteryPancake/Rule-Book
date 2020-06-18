@@ -1,4 +1,8 @@
 # MysteryPancake's Rule Book
+Please do not use this rule book for your own purposes. The rules are extremely arbitrary and change all the time.
+
+It is a journal to help me try to remain consistent. It also helps me spot and fix common mistakes.
+
 ## GitHub
 ### Generic
 * Repositories must have `README` files.
@@ -96,6 +100,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `return` early from functions containing lots of code.
 * Functions mustn't have unintentional side effects.
 * [`application/xml` must be used, not `text/xml`](https://stackoverflow.com/a/6141983).
+* [`switch` statements mustn't have additional tabs](https://stackoverflow.com/a/3005855).
 * Unused variables must be set as `_`, or removed.
 * `x *= 0.75` must be used, not `x = x - x / 4`.
 * `Clientside` must be used, not `client-side`.
