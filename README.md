@@ -1,7 +1,7 @@
 # MysteryPancake's Rule Book
-Please do not use this rule book for your own purposes. The rules are extremely arbitrary and change all the time.
+Please don't use this rule book. The rules are extremely arbitrary and change all the time.
 
-It is a journal to help me try to remain consistent. It also helps me spot and fix common mistakes.
+It's a journal to help me try to remain consistent. It also helps me spot and fix common mistakes.
 
 ## GitHub
 ### Generic
