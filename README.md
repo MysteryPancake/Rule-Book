@@ -247,6 +247,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 	</body>
 </html>
 ```
+* [To improve responsiveness, `onmousedown` must be used instead of `onclick` where possible](https://hackernoon.com/instant-actions-onmousedown-vs-onclick-37f20b00eaf0).
 * [CSS must be used for sizing iframes, not `<iframe width=<WIDTH> height=<HEIGHT>`](https://benmarshall.me/responsive-iframes).
 * [`<script>` must be used, not `<script type="text/javascript">`](https://stackoverflow.com/a/4243934).
 * [`<style>` must be used, not `<style type="text/css">`](https://forum.webflow.com/t/style-vs-style-type-text-css/10685/2).
