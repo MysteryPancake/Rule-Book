@@ -28,10 +28,10 @@ It's a journal to help me try to remain consistent. It also helps me spot and fi
 * Repositories must include a link to the addon.
 * Repository `README` files must use this template:
 ```
+<img src="<ICON_PATH>?raw=true" width="75" align="left">
+
 # Garry's Mod <Addon Name>
 All the code for my <Addon Name> addon can be found here, and the actual addon is available [here](<WORKSHOP_LINK>).
-
-![Icon](<ICON_PATH>?raw=true)
 ```
 
 ### Discord
