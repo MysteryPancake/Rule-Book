@@ -275,9 +275,10 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`responseText` and `responseXML` must be used, not `response`](https://stackoverflow.com/a/46751655).
 * [`console.error` must be used to log errors, not `console.log`](https://stackoverflow.com/a/25532848).
 * [`str.replace(/\.[^/.]+$/, "")` must be used to get a file name](https://stackoverflow.com/a/4250408).
+* [`fetch` must be used for newer websites, not `XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
 * [`str.split(".").pop()` must be used to get a file extension](https://stackoverflow.com/a/190878).
 * [`string.charAt` must be used to get a character in a string](https://stackoverflow.com/a/3427148).
-* [`textContent` must be used, unless `innerHTML` is essential.](https://stackoverflow.com/a/21311670).
+* [`textContent` must be used, unless `innerHTML` is essential](https://stackoverflow.com/a/21311670).
 * `bool ? foo : bar` must be used, not `bool && foo || bar`.
 * `window.` must be before `window` methods and properties.
 * Global variables must be declared at the top of the script.
