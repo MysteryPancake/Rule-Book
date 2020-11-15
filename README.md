@@ -247,7 +247,6 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 	</body>
 </html>
 ```
-* [To improve responsiveness, `onmousedown` must be used instead of `onclick` where possible](https://hackernoon.com/instant-actions-onmousedown-vs-onclick-37f20b00eaf0).
 * [CSS must be used for sizing iframes, not `<iframe width=<WIDTH> height=<HEIGHT>`](https://benmarshall.me/responsive-iframes).
 * [`<script>` must be used, not `<script type="text/javascript">`](https://stackoverflow.com/a/4243934).
 * [`<style>` must be used, not `<style type="text/css">`](https://forum.webflow.com/t/style-vs-style-type-text-css/10685/2).
@@ -274,6 +273,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * [`responseText` and `responseXML` must be used, not `response`](https://stackoverflow.com/a/46751655).
 * [`console.error` must be used to log errors, not `console.log`](https://stackoverflow.com/a/25532848).
+* [`onmousedown` must be used instead of `onclick` where possible](https://hackernoon.com/instant-actions-onmousedown-vs-onclick-37f20b00eaf0).
 * [`str.replace(/\.[^/.]+$/, "")` must be used to get a file name](https://stackoverflow.com/a/4250408).
 * [`fetch` must be used for newer websites, not `XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
 * [`str.split(".").pop()` must be used to get a file extension](https://stackoverflow.com/a/190878).
