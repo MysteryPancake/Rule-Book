@@ -222,6 +222,9 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * [`Int` must be used, not `UInt`](https://stackoverflow.com/questions/24180630).
 * `&` must be used for pointers.
 
+### C++
+[`'\n'` must be used, not `std::endl`](https://stackoverflow.com/a/213977).
+
 ### HTML
 [This template](https://validator.w3.org) [must be used](https://gethead.info):
 ```
