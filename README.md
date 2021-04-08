@@ -223,7 +223,17 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `&` must be used for pointers.
 
 ### C++
-[`'\n'` must be used, not `std::endl`](https://stackoverflow.com/a/213977).
+Classes must be indented as:
+```
+class Person
+{
+private:
+	string name;
+public:
+	void setName(string);
+};
+```
+* [`'\n'` must be used, not `std::endl`](https://stackoverflow.com/a/213977).
 
 ### HTML
 [This template](https://validator.w3.org) [must be used](https://gethead.info):
