@@ -223,7 +223,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 * `&` must be used for pointers.
 
 ### C++
-Classes must be indented as:
+[Classes must be indented like this](https://stackoverflow.com/a/4960434):
 ```
 class Person
 {
