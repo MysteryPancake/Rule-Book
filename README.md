@@ -69,7 +69,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
     "nodejs-bot",
     "nodejs",
     "node-js",
-    "bot",
+    "bot"
   ],
   "author": "MysteryPancake",
   "license": "MIT",
