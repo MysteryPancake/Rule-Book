@@ -1,7 +1,7 @@
 # MysteryPancake's Rule Book
 Please don't use this rule book. The rules are extremely arbitrary and change all the time.
 
-It's a journal to help me try to remain consistent. It also helps me spot and fix common mistakes.
+This is a journal to help me remain consistent. It also helps me spot and fix common mistakes.
 
 ## GitHub
 ### Generic
@@ -113,11 +113,10 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * [`Generic` must be used, not `general`](https://ell.stackexchange.com/a/16225).
 * No unnecessary variables in loops.
 * `Setup` must be used, not `init`.
-* Strings must use `"`, not `'`.
+* [Strings must use `"`, not `'`](https://stackoverflow.com/a/2004178).
 * Errors must be handled safely.
 * No unnecessary `(` or `)`.
 * No unnecessary variables.
-* [`;` mustn't be used](https://stackoverflow.com/questions/16862337).
 
 ### Lua
 * `tbl[ math.random( #tbl ) ]` must be used to get a random value from a table.
@@ -281,12 +280,14 @@ public:
 * [`.split("str")[0]` must be used to get text before a string, not `.split("str").shift()`](https://stackoverflow.com/a/33437745).
 * `foo += bar` and `foo -= bar` must be used, not `foo = foo + bar` or `foo = foo - bar`.
 * [`window.innerWidth` and `window.innerHeight` must be used to get the document size](https://www.w3schools.com/jsref/prop_win_innerheight.asp).
-* Javascript names mustn't be used in objects: `{ "false": true }[false] -> true`
+* JavaScript names mustn't be used in objects: `{ "false": true }[false] -> true`
+* `.catch(console.error)` is preferred over `.catch(e => console.error(e))`.
 * [`if (array.length) {` must be used, not `if (array.length > 0) {`](https://stackoverflow.com/a/32911903).
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * [`responseText` and `responseXML` must be used, not `response`](https://stackoverflow.com/a/46751655).
 * [`console.error` must be used to log errors, not `console.log`](https://stackoverflow.com/a/25532848).
 * [`onmousedown` must be used instead of `onclick` where possible](https://hackernoon.com/instant-actions-onmousedown-vs-onclick-37f20b00eaf0).
+* [`Math.log2(x)` must be used, not `Math.log(x) / Math.log(2)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log2).
 * [`str.replace(/\.[^/.]+$/, "")` must be used to get a file name](https://stackoverflow.com/a/4250408).
 * [`fetch` must be used for newer websites, not `XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
 * [`str.split(".").pop()` must be used to get a file extension](https://stackoverflow.com/a/190878).
@@ -315,9 +316,7 @@ public:
 * [`for` must be used, not `forEach`](https://coderwall.com/p/kvzbpa/don-t-use-array-foreach-use-for-instead).
 * [Constructors must be capitalized](https://stackoverflow.com/a/1564489).
 * `Object.keys()` mustn't be used.
-* [`\"` must be used, not `'`](https://stackoverflow.com/a/2004178).
 * [No use before define](https://eslint.org/docs/rules/no-use-before-define).
-* `` ` `` mustn't be used.
 * [`;` must be used](https://stackoverflow.com/a/444082).
 * [This must be used to remove an element from an array](https://stackoverflow.com/a/5767357):
 ```
