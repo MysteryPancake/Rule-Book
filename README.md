@@ -88,7 +88,6 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 ## Programming
 ### Generic
 * Functions with applicable default arguments mustn't be called with the arguments.
-* `while (lines.length > 0)` must be used, not `while (lines.length)`.
 * Generic `string` variables must be named `str`, not `txt`, or `text`.
 * `-foo` and `!foo` must be used to invert variables, not `foo * -1`.
 * Functions with `enum` arguments mustn't be called with raw values.
@@ -282,7 +281,6 @@ public:
 * [`window.innerWidth` and `window.innerHeight` must be used to get the document size](https://www.w3schools.com/jsref/prop_win_innerheight.asp).
 * JavaScript names mustn't be used in objects: `{ "false": true }[false] -> true`
 * `.catch(console.error)` is preferred over `.catch(e => console.error(e))`.
-* [`if (array.length) {` must be used, not `if (array.length > 0) {`](https://stackoverflow.com/a/32911903).
 * `foo++` and `foo--` must be used, not `foo += 1` or `foo -= 1`.
 * [`responseText` and `responseXML` must be used, not `response`](https://stackoverflow.com/a/46751655).
 * [`console.error` must be used to log errors, not `console.log`](https://stackoverflow.com/a/25532848).
