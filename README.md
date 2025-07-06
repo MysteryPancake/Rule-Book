@@ -27,7 +27,7 @@ This is a journal to help me remain consistent. It also helps me spot and fix co
 * Repositories must include an addon icon and the associated Photoshop file.
 * Repositories must include a link to the addon.
 * Repository `README` files must use this template:
-```
+```md
 <img src="<ICON_PATH>?raw=true" width="75" align="left">
 
 # Garry's Mod <Addon Name>
@@ -41,7 +41,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * Repository `README` files must include a command list.
 * Repositories must include a bot icon.
 * Repository `package.json` files must use this template:
-```
+```json
 {
   "name": "<Repository-Name>",
   "version": "1.0.0",
@@ -163,7 +163,7 @@ All the code for my <Addon Name> addon can be found here, and the actual addon i
 * `table.Random` mustn't be used.
 * `Material` must be cached.
 * `SENT`s must use this template:
-```
+```lua
 AddCSLuaFile()
 
 ENT.Type = "anim"
@@ -222,7 +222,7 @@ ENT.RenderGroup = RENDERGROUP_OPAQUE
 
 ### C++
 [Classes must be indented like this](https://stackoverflow.com/a/4960434):
-```
+```cpp
 class Person
 {
 private:
@@ -235,7 +235,7 @@ public:
 
 ### HTML
 [This template](https://validator.w3.org) [must be used](https://gethead.info):
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 	<head>
